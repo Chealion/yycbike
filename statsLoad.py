@@ -28,9 +28,10 @@ SEVEN_SB={'installation':"sevenst", 'direction':"south", 'url':"http://www.eco-p
 
 STEPHEN_CAR={'installation':"stephenave", 'direction':"car", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/103017165/"}
 STEPHEN_BIKE={'installation':"stephenave", 'direction':"bike", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102017165"}
-STEPHEN_PED={'installation':"stephenave", 'direction':"ped", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/101017165"}
+# Not available due to calibration issues - https://twitter.com/DaleCalkins/status/589087591078580224
+#STEPHEN_PED={'installation':"stephenave", 'direction':"ped", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/101017165"}
 
-for i in [ PB_NB, PB_SB, SEVEN_NB, SEVEN_SB, STEPHEN_CAR, STEPHEN_BIKE, STEPHEN_PED ]:
+for i in [ PB_NB, PB_SB, SEVEN_NB, SEVEN_SB, STEPHEN_CAR, STEPHEN_BIKE ]:
     # Specify yesterday to download
     url=i['url'] + "?begin=" + yesterday + "&end=" + yesterday + "&step=2"
     print 'Loading ' + i['installation'] + ' ' + i['direction'] + '...'
