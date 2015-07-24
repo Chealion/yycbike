@@ -6,10 +6,13 @@ The data is collected from the following sources:
 
   * [Environment Canada](http://climate.weather.gc.ca)
   * Public Eco-Counter Pages for individual counters.
-    * [Peace Bridge](http://www.eco-public.com/public2/?id=100018487)
-    * [7th St.](http://www.eco-public.com/public2/?id=100017181)
+    * [Peace Bridge - Bikes](http://www.eco-public.com/public2/?id=100018487)
+    * [Peace Bridge - Pedestrians](http://eco-public.com/public2/?id=100013817)
     * [Stephen Ave](http://eco-public.com/public2/?id=100020243)
-
+    * [7th St.](http://www.eco-public.com/public2/?id=100017181)
+    * 5th St. - [North Leg](http://www.eco-public.com/public2/?id=100022540), [Under the Tracks](http://www.eco-public.com/public2/?id=100022543), [South Leg](http://www.eco-public.com/public2/?id=100022541)
+    * 12th Ave. - [West Leg](http://www.eco-public.com/public2/?id=100022581), [Central Memorial](http://www.eco-public.com/public2/?id=100022580), [East Leg](http://www.eco-public.com/public2/?id=100022582)
+    * 8th Ave. [West Leg](http://www.eco-public.com/public2/?id=100022547), 
 
 ## Thank You
 
@@ -30,29 +33,65 @@ Eco-Counter has a private API that can be figured out by reading the AJAX reques
     http://www.eco-public.com/api/h7q239dd/data/periode/[ID]/?begin=YYYYMMDD&endYYYYMMDD&step=[NUMBER]
     Data Set Names for Installation:
     http://www.eco-public.com/api/h7q239dd/counter/channels/[ID]
+    Public Page Details:
+    http://www.eco-public.com/api/dfd15sd1ds/public/page/[ID]
 
 The step ID can be 2 (daily), 3 (hourly), or 4 (15 minute).
 
 Installation Name |     ID    | Start Date
 ------------------|-----------|------------
-*Peace Bridge*    | 100018487 | April 24, 2014
+**Peace Bridge - Bikes**  | 100018487 | April 24, 2014
 Northbound        | 101018487 | 
 Southbound        | 102018487 | 
-*Stephen Ave*     | 100020243 | October 23, 2014
+**Peace Bridge - Peds** | 100013817 | April 24, 2014
+Northbound        | 101013817 | 
+Southbound        | 102013817 | 
+**Stephen Ave**   | 100020243 | October 23, 2014
 Bikes             | 101020243 | 
 Cars              | 102020243 |
-*7th Street*      | 100017181 | December 11, 2014
+Peds              | 10x020207 |
+**7th Street**    | 100017181 | December 11, 2014
 Northbound        | 101017181 | 
 Southbound        | 102017181 |
+**5th Street N Leg**  | 100022540 | June 17, 2015
+Northbound        | 102022540 | *
+Southbound        | 101022540 | *
+**5th Street CPR** | 100022543 | June 17, 2015
+Northbound        | 101022543 | *
+Southbound        | 102022543 | *
+**5th Street S Leg**  | 100022541 | June 17, 2015
+Northbound        | 101022541 | *
+Southbound        | 102022541 | *
+**12th Avenue W Leg** | 100022581 | June 17, 2015
+Eastbound        | 101022581 | 
+Westbound        | 102022581 |
+**12th Avenue**  | 100022580 | June 17, 2015
+Eastbound        | 102022580 | 
+Westbound        | 101022580 |
+**12th Avenue E Leg** | 100022582 | June 17, 2015
+Eastbound        | 102022582 | *
+Westbound        | 101022582 | *
+**8th Avenue W Leg** | 100022547 | June 12, 2015
+Eastbound        | 100022547 |
+Westbound        | ???? | * 
+**8th Avenue Centre** | 100023674 | June 15, 2015
+Eastbound        | 1010123674 |
+Westbound        | 1020123674 |
+**9th Ave E Leg** | 100023675 | June 17, 2015
+Eastbound        | 101023675 |
+Westbound        | 102023675 |
+**2015 Totals** | 100023678 | January 1, 2015 
 
 There is also one counter that is no longer public; the original Stephen Ave counter that was done with infrared cameras instead of in road sensors. Calgary.bike doesn't record any of this data.
 
 Installation Name |     ID    | Start Date
+------------------|-----------|------------
 *Stephen Ave OLD* | 100017165 | October 23, 2014
 Pedestrian        | 101017165 |
 Bikes             | 102017165 |
 Cars              | 103017165 | 
 
+Now public as 100020207?
 
 ## File Listing
 
@@ -66,7 +105,7 @@ Load the Eco Counter numbers into Graphite
 
 ### twitterBot.py
 
-The script that runs the #yycbike_count Twitter feed. Runs once a day.
+The script that runs the #yycbike\_count Twitter feed. Runs once a day.
 
 ### weatherLoad.py
 
