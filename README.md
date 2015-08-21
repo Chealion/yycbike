@@ -49,38 +49,35 @@ Southbound        | 102013817 |
 **Stephen Ave**   | 100020243 | October 23, 2014
 Bikes             | 101020243 | 
 Cars              | 102020243 |
-Peds              | 10x020207 |
+Peds              | 101020207 |
 **7th Street**    | 100017181 | December 11, 2014
 Northbound        | 101017181 | 
 Southbound        | 102017181 |
 **5th Street N Leg**  | 100022540 | June 17, 2015
 Northbound        | 102022540 | *
 Southbound        | 101022540 | *
-**5th Street CPR** | 100022543 | June 17, 2015
-Northbound        | 101022543 | *
-Southbound        | 102022543 | *
-**5th Street S Leg**  | 100022541 | June 17, 2015
+**5th Street CPR** | 100020095 | June 18, 2015
+Northbound        | 101020095 |
+Southbound        | 102020095 |
+**5th Street S Leg**  | 100022541 | June 16, 2015
 Northbound        | 101022541 | *
 Southbound        | 102022541 | *
-**12th Avenue W Leg** | 100022581 | June 17, 2015
+**12th Avenue W Leg** | 100022581 | June 16, 2015
 Eastbound        | 101022581 | 
 Westbound        | 102022581 |
-**12th Avenue**  | 100022580 | June 17, 2015
+**12th Avenue**  | 100022580 | June 16, 2015
 Eastbound        | 102022580 | 
 Westbound        | 101022580 |
-**12th Avenue E Leg** | 100022582 | June 17, 2015
-Eastbound        | 102022582 | *
-Westbound        | 101022582 | *
-**8th Avenue W Leg** | 100024297 | June 18, 2015
-Eastbound        | 101024297 | *
-Westbound        | 102024297 | *
-**8th Avenue W Leg** | 100022547 | June 12, 2015
-Eastbound        | 100022547 |
-Westbound        | ???? | * 
-**8th Avenue Centre** | 100024406 | June 15, 2015
+**12th Avenue E Leg** | 100022582 | June 16, 2015
+Eastbound        | 102022582 |
+Westbound        | 101022582 |
+**8th Avenue W Leg** | 100024297 | July 11, 2015
+Eastbound        | 101024297 |
+Westbound        | 102024297 |
+**8th Avenue Centre** | 100024406 | July 9, 2015
 Eastbound        | 1010124406 | 
 Westbound        | 1020124406 | 
-**9th Ave E Leg** | 100023675 | June 17, 2015
+**9th Ave** | 100023675 | June 17, 2015
 Eastbound        | 101023675 |
 Westbound        | 102023675 |
 **2015 Totals** | 100023678 | January 1, 2015 
@@ -93,8 +90,6 @@ Installation Name |     ID    | Start Date
 Pedestrian        | 101017165 |
 Bikes             | 102017165 |
 Cars              | 103017165 | 
-
-Now public as 100020207?
 
 8th Ave also had some other IDs - 100023674, 100024162
 
