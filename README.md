@@ -27,7 +27,7 @@ Environment Canada's data is available as hourly readings (a month's worth), or 
     Daily Data:
     http://climate.weather.gc.ca/climateData/bulkdata_e.html?format=csv&stationID=50430&Prov=AB&dlyRange=2012-07-97&7C2015-01-01&Year=2015&Month=1&Day=1&timeframe=2&submit=Download+Data
 
-Eco-Counter has a private API that can be figured out by reading the AJAX requests performed on each of the counter pages. The counts are posted once a day normally between 5:00 and 6:00 AM MST, so the counts are *not* live.
+Eco-Counter has a private API that can be figured out by reading the AJAX requests performed on each of the counter pages. The data in question is owned by the City of Calgary. The counts are posted once a day normally between 5:00 and 6:00 AM MST, so the counts are *not* live.
 
     Individual Data Sets:
     http://www.eco-public.com/api/h7q239dd/data/periode/[ID]/?begin=YYYYMMDD&endYYYYMMDD&step=[NUMBER]
@@ -71,12 +71,15 @@ Westbound        | 101022580 |
 **12th Avenue E Leg** | 100022582 | June 17, 2015
 Eastbound        | 102022582 | *
 Westbound        | 101022582 | *
+**8th Avenue W Leg** | 100024297 | June 18, 2015
+Eastbound        | 101024297 | *
+Westbound        | 102024297 | *
 **8th Avenue W Leg** | 100022547 | June 12, 2015
 Eastbound        | 100022547 |
 Westbound        | ???? | * 
-**8th Avenue Centre** | 100023674 | June 15, 2015
-Eastbound        | 1010123674 |
-Westbound        | 1020123674 |
+**8th Avenue Centre** | 100024406 | June 15, 2015
+Eastbound        | 1010124406 | 
+Westbound        | 1020124406 | 
 **9th Ave E Leg** | 100023675 | June 17, 2015
 Eastbound        | 101023675 |
 Westbound        | 102023675 |
@@ -92,6 +95,8 @@ Bikes             | 102017165 |
 Cars              | 103017165 | 
 
 Now public as 100020207?
+
+8th Ave also had some other IDs - 100023674, 100024162
 
 ## File Listing
 
