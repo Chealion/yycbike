@@ -27,7 +27,9 @@ SEVEN_SB="http://www.eco-public.com/api/h7q239dd/data/periode/102017181/?begin="
 PB_SB="http://www.eco-public.com/api/h7q239dd/data/periode/102018487/?begin=" + yesterday + "&end=" + yesterday + "&step=4"
 
 # 1 = Ped, 2 = Bike, 3 = Car
-STEPHEN="http://www.eco-public.com/api/h7q239dd/data/periode/102017165/?begin=" + yesterday + "&end=" + yesterday + "&step=4"
+STEPHEN="http://www.eco-public.com/api/h7q239dd/data/periode/101020243/?begin=" + yesterday + "&end=" + yesterday + "&step=4"
+
+# Send out 3 tweets - one for each the Peace Bridge, 7th St. and Stephen Ave.
 
 # Peace Bridge
 response = urllib2.urlopen(PB_NB)
