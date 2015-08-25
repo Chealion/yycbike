@@ -24,8 +24,8 @@ yesterday = yesterday.strftime('%Y%m%d')
 #Installations
 
 # Peace Bridge
-PB_NB={'installation':"peacebridge", 'direction':"north", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/101018487/"}
-PB_SB={'installation':"peacebridge", 'direction':"south", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102018487/"}
+PB_NB={'installation':"peacebridge", 'direction':"north", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/103013817/"}
+PB_SB={'installation':"peacebridge", 'direction':"south", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/104013817/"}
 
 PB_PED_NB={'installation':"yycwalk.peacebridge", 'direction':"north", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/101013817/"}
 PB_PED_SB={'installation':"yycwalk.peacebridge", 'direction':"south", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102013817/"}
@@ -33,8 +33,8 @@ PB_PED_SB={'installation':"yycwalk.peacebridge", 'direction':"south", 'url':"htt
 SEVEN_NB={'installation':"sevenst", 'direction':"north", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/101017181/"}
 SEVEN_SB={'installation':"sevenst", 'direction':"south", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102017181/"}
 
-STEPHEN_CAR={'installation':"stephenave", 'direction':"car", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102020243/"}
-STEPHEN_BIKE={'installation':"stephenave", 'direction':"bike", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/101020243/"}
+STEPHEN_CAR={'installation':"stephenave", 'direction':"car", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/103020207/"}
+STEPHEN_BIKE={'installation':"stephenave", 'direction':"bike", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102020207/"}
 STEPHEN_PED={'installation':"stephenave", 'direction':"ped", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/101020207"}
 
 FIFTH_5_NB={'installation':"fifth.fifth", 'direction':"north", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102022540/"}
@@ -60,8 +60,7 @@ EIGHTH_8_WB={'installation':"eighth.eighthsw", 'direction':"westbound", 'url':"h
 EIGHTH_3_EB={'installation':"eighth.thirdsw", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/101024406/"}
 EIGHTH_3_WB={'installation':"eighth.thirdsw", 'direction':"westbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102024406/"}
 
-for i in [ PB_NB, PB_SB, PB_PED_NB, PB_PED_SB, SEVEN_NB, SEVEN_SB, STEPHEN_CAR, STEPHEN_BIKE ]:
-#for i in [ PB_NB, PB_SB, PB_PED_NB, PB_PED_SB, SEVEN_NB, SEVEN_SB, STEPHEN_CAR, STEPHEN_BIKE, FIFTH_5_NB, FIFTH_5_SB, FIFTH_10_NB, FIFTH_10_SB, FIFTH_15_NB, FIFTH_15_SB, TWELFTH_8_EB, TWELFTH_8_WB, TWELFTH_2_EB, TWELFTH_2_WEB, TWELFTH_3_EB, TWELFTH_3_WB, NINTH_4_EB, NINTH_4_WB, EIGHTH_4_EB, EIGHTH_4_WB, EIGHTH_8_EB, EIGHTH_8_WB, EIGHTH_3_EB, EIGTH_8_WB ]:
+for i in [ PB_NB, PB_SB, PB_PED_NB, PB_PED_SB, SEVEN_NB, SEVEN_SB, STEPHEN_CAR, STEPHEN_BIKE, FIFTH_5_NB, FIFTH_5_SB, FIFTH_10_NB, FIFTH_10_SB, FIFTH_15_NB, FIFTH_15_SB, TWELFTH_8_EB, TWELFTH_8_WB, TWELFTH_2_EB, TWELFTH_2_EB, TWELFTH_3_EB, TWELFTH_3_WB, NINTH_4_EB, NINTH_4_WB, EIGHTH_8_EB, EIGHTH_8_WB, EIGHTH_3_EB, EIGHTH_3_WB ]:
     # Specify yesterday to download
     url=i['url'] + "?begin=" + yesterday + "&end=" + yesterday + "&step=2"
     dailyurl=i['url'] + "?begin=" + yesterday + "&end=" + yesterday + "&step=4"
@@ -76,7 +75,7 @@ for i in [ PB_NB, PB_SB, PB_PED_NB, PB_PED_SB, SEVEN_NB, SEVEN_SB, STEPHEN_CAR, 
         metric_string = i['installation'] + '.' + i['direction'] + '.trips ' + str(datapoint['comptage']) + ' ' + str(datapoint['timestamp']/1000)
         metriclog.write(metric_string + "\n")
         graphitesend.send(i['installation'] + '.' + i['direction'] + '.trips', datapoint['comptage'], datapoint['timestamp']/1000)
-
+	
     # Daily counts
     response = urllib2.urlopen(dailyurl)
     json_data = response.read()
