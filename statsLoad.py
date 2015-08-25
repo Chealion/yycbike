@@ -54,13 +54,13 @@ TWELFTH_3_WB={'installation':"twelfth.thirdse", 'direction':"westbound", 'url':"
 NINTH_4_EB={'installation':"ninth.fourthse", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/101023675/"}
 NINTH_4_WB={'installation':"ninth.fourthse", 'direction':"westbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102023675/"}
 
-EIGHTH_8_EB={'installation':"eighth.eighthsw", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/101024927/"}
-EIGHTH_8_WB={'installation':"eighth.eighthsw", 'direction':"westbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102024927/"}
+EIGHTH_8_EB={'installation':"eighth.eighthsw", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/101024297/"}
+EIGHTH_8_WB={'installation':"eighth.eighthsw", 'direction':"westbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102024297/"}
 
 EIGHTH_3_EB={'installation':"eighth.thirdsw", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/101024406/"}
 EIGHTH_3_WB={'installation':"eighth.thirdsw", 'direction':"westbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102024406/"}
 
-for i in [ PB_NB, PB_SB, PB_PED_NB, PB_PED_SB, SEVEN_NB, SEVEN_SB, STEPHEN_CAR, STEPHEN_BIKE, FIFTH_5_NB, FIFTH_5_SB, FIFTH_10_NB, FIFTH_10_SB, FIFTH_15_NB, FIFTH_15_SB, TWELFTH_8_EB, TWELFTH_8_WB, TWELFTH_2_EB, TWELFTH_2_EB, TWELFTH_3_EB, TWELFTH_3_WB, NINTH_4_EB, NINTH_4_WB, EIGHTH_8_EB, EIGHTH_8_WB, EIGHTH_3_EB, EIGHTH_3_WB ]:
+for i in [ PB_NB, PB_SB, PB_PED_NB, PB_PED_SB, SEVEN_NB, SEVEN_SB, STEPHEN_CAR, STEPHEN_BIKE, FIFTH_5_NB, FIFTH_5_SB, FIFTH_10_NB, FIFTH_10_SB, FIFTH_15_NB, FIFTH_15_SB, TWELFTH_8_EB, TWELFTH_8_WB, TWELFTH_2_EB, TWELFTH_2_WB, TWELFTH_3_EB, TWELFTH_3_WB, NINTH_4_EB, NINTH_4_WB, EIGHTH_8_EB, EIGHTH_8_WB, EIGHTH_3_EB, EIGHTH_3_WB ]:
     # Specify yesterday to download
     url=i['url'] + "?begin=" + yesterday + "&end=" + yesterday + "&step=2"
     dailyurl=i['url'] + "?begin=" + yesterday + "&end=" + yesterday + "&step=4"
