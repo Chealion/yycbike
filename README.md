@@ -6,13 +6,14 @@ The data is collected from the following sources:
 
   * [Environment Canada](http://climate.weather.gc.ca)
   * Public Eco-Counter Pages for individual counters.
-    * [Peace Bridge - Bikes](http://www.eco-public.com/public2/?id=100018487)
-    * [Peace Bridge - Pedestrians](http://eco-public.com/public2/?id=100013817)
-    * [Stephen Ave](http://eco-public.com/public2/?id=100020243)
+    * [Calgary Bike Counter Page](http://www.eco-public.com/ParcPublic/?id=4190)
+    * [Peace Bridge - Bikes and Pedestrians](http://www.eco-public.com/public2/?id=100018487)
+    * [Stephen Ave](http://eco-public.com/public2/?id=100020207)
     * [7th St.](http://www.eco-public.com/public2/?id=100017181)
-    * 5th St. - [North Leg](http://www.eco-public.com/public2/?id=100022540), [Under the Tracks](http://www.eco-public.com/public2/?id=100022543), [South Leg](http://www.eco-public.com/public2/?id=100022541)
+    * 5th St. - [North Leg](http://www.eco-public.com/public2/?id=100022540), [Under the Tracks](http://www.eco-public.com/public2/?id=100020095), [South Leg](http://www.eco-public.com/public2/?id=100022541)
     * 12th Ave. - [West Leg](http://www.eco-public.com/public2/?id=100022581), [Central Memorial](http://www.eco-public.com/public2/?id=100022580), [East Leg](http://www.eco-public.com/public2/?id=100022582)
-    * 8th Ave. [West Leg](http://www.eco-public.com/public2/?id=100022547), 
+    * 8th Ave. - [West Leg](http://www.eco-public.com/public2/?id=100024297), [Centre](http://www.eco-public.com/public2/?id=100024406)
+    * 9th Ave. - [NMC](http://www.eco-public.com/public2/?id=100023675)
 
 ## Thank You
 
@@ -40,16 +41,15 @@ The step ID can be 2 (daily), 3 (hourly), or 4 (15 minute).
 
 Installation Name |     ID    | Start Date
 ------------------|-----------|------------
-**Peace Bridge - Bikes**  | 100018487 | April 24, 2014
-Northbound        | 101018487 | 
-Southbound        | 102018487 | 
-**Peace Bridge - Peds** | 100013817 | April 24, 2014
-Northbound        | 101013817 | 
-Southbound        | 102013817 | 
-**Stephen Ave**   | 100020243 | October 23, 2014
-Bikes             | 101020243 | 
-Cars              | 102020243 |
+**Peace Bridge - Bikes and Peds**  | 100013817 | April 24, 2014
+Peds Northbound   | 101013817 | 
+Peds Southbound   | 102013817 | 
+Bikes Northbound  | 103018487 | 
+Bikes Southbound  | 104018487 | 
+**Stephen Ave**   | 100020207 | October 23, 2014
 Peds              | 101020207 |
+Bikes             | 102020207 | 
+Cars              | 103020207 |
 **7th Street**    | 100017181 | December 11, 2014
 Northbound        | 101017181 | 
 Southbound        | 102017181 |
@@ -82,16 +82,16 @@ Eastbound        | 101023675 |
 Westbound        | 102023675 |
 **2015 Totals** | 100023678 | January 1, 2015 
 
-There is also one counter that is no longer public; the original Stephen Ave counter that was done with infrared cameras instead of in road sensors. Calgary.bike doesn't record any of this data.
 
-Installation Name |     ID    | Start Date
+There were also some other presentation or counters that have been retired in favour of news ones.
+
+Installation Name |     ID    | Notes
 ------------------|-----------|------------
-*Stephen Ave OLD* | 100017165 | October 23, 2014
-Pedestrian        | 101017165 |
-Bikes             | 102017165 |
-Cars              | 103017165 | 
-
-8th Ave also had some other IDs - 100023674, 100024162
+**Stephen Ave**   | 100017165 | October 23, 2014
+**8th Ave**       | 100023674 | 
+**8th Ave**       | 100024162 | 
+**Peace Bridge**  | 100018487 | Original counter page for only bikes
+**Stephen Ave**   | 100020243 | Original Stephen Ave Page didn't show peds.
 
 ## File Listing
 
