@@ -113,20 +113,20 @@ Load Environemnt Canada weather data into Graphite
 
 ### Metric Naming
 
-Trips:
-15 minute increments: yycbike.installation.direction.trips
+Trips:  
+15 minute increments: yycbike.installation.direction.trips  
 Daily counts: yycbike.daily.installation.direction.trips
 
 Weather Data recorded:
 
-yycbike.weather.daily.high
-yycbike.weather.daily.low
-yycbike.weather.daily.mean
-yycbike.weather.daily.precip
+yycbike.weather.daily.high  
+yycbike.weather.daily.low  
+yycbike.weather.daily.mean  
+yycbike.weather.daily.precip  
 yycbike.weather.daily.snowamt
 
-yycbike.weather.hourly.temp
-yycbike.weather.hourly.feels
-yycbike.weather.hourly.windspeed
-yycbike.weather.hourly.winddir
+yycbike.weather.hourly.temp  
+yycbike.weather.hourly.feels  
+yycbike.weather.hourly.windspeed  
+yycbike.weather.hourly.winddir  
 yycbike.weather.hourly.humidity
