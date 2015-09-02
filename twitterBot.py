@@ -81,9 +81,7 @@ for i in sortedList:
 # Calculate averages
 
 eighthAvg = int(round((EIGHTH_8['value'] + EIGHTH_3['value'] + NINTH_4['value'])/3,0))
-#fifthAvg = int(round((FIFTH_5['value'] + FIFTH_10['value'] + FIFTH_15['value'])/3,0))
-# Fifth only using two for now as the whole south of 5th track is closed...
-fifthAvg = int(round((FIFTH_5['value'] + FIFTH_10['value'])/2,0))
+fifthAvg = int(round((FIFTH_5['value'] + FIFTH_10['value'] + FIFTH_15['value'])/3,0))
 twelfthAvg = int(round((TWELVE_8['value'] + TWELVE_2['value'] + TWELVE_3['value'])/3,0))
 
 # Send out 2 tweets - summary of all, and top hits
