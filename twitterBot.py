@@ -80,9 +80,15 @@ for i in sortedList:
 
 # Calculate averages
 
-eighthAvg = int(round((EIGHTH_8['value'] + EIGHTH_3['value'] + NINTH_4['value'])/3,0))
-fifthAvg = int(round((FIFTH_5['value'] + FIFTH_10['value'] + FIFTH_15['value'])/3,0))
-twelfthAvg = int(round((TWELVE_8['value'] + TWELVE_2['value'] + TWELVE_3['value'])/3,0))
+#eighthAvg = int(round((EIGHTH_8['value'] + EIGHTH_3['value'] + NINTH_4['value'])/3,0))
+#fifthAvg = int(round((FIFTH_5['value'] + FIFTH_10['value'] + FIFTH_15['value'])/3,0))
+#twelfthAvg = int(round((TWELVE_8['value'] + TWELVE_2['value'] + TWELVE_3['value'])/3,0))
+
+# Use medians as recommended. Done by hand since we have three per.
+
+eighthAvg = sorted([EIGHTH_8['value'], EIGHTH_3['value'], NINTH_4['value']])[1]
+fifthAvg = sorted([FIFTH_5['value'], FIFTH_10['value'], FIFTH_15['value']])[1]
+twelfthAvg = sorted([TWELVE_8['value'], TWELVE_2['value'], TWELVE_3['value']])[1]
 
 # Send out 2 tweets - summary of all, and top hits
 
@@ -96,7 +102,7 @@ t.statuses.update(
 
 ## Summary
 
-count_status="Yesterday's #yycbike trip counts:\n\n7 St: %d\nPeace Bridge: %d\nStephen Ave: %d\n8/9 Ave Avg: %d\n5 St Avg: %d\n12 Ave Avg: %d" % (SEVENTH['value'], PB['value'], STEPHEN['value'], eighthAvg, fifthAvg, twelfthAvg)
+count_status="Yesterday #yycbike trip counts:\n\n7 St: %d\nPeace Bridge: %d\nStephen Ave: %d\n8/9 Ave Mdn: %d\n5 St Mdn: %d\n12 Ave Mdn: %d" % (SEVENTH['value'], PB['value'], STEPHEN['value'], eighthAvg, fifthAvg, twelfthAvg)
 print count_status
 
 t.statuses.update(
