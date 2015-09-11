@@ -52,7 +52,12 @@ for i in [ PB_NB, PB_SB, STEPHEN, SEVENTH, FIFTH_5, FIFTH_10, FIFTH_15, TWELVE_8
     url=i['url'] + "?begin=" + yesterday + "&end=" + yesterday + "&step=4"
     response = urllib2.urlopen(url)
     json_data = response.read()
-    amount = json.loads(json_data)[0]['comptage']
+    try: 
+	amount = json.loads(json_data)[0]['comptage']
+    except:
+	# If comptage is null or not there at all - set to 0.
+	amount = 0
+	print "Error loading"
     i['value'] = amount
 
 # Create Peace Bridge total
