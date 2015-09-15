@@ -1,5 +1,11 @@
 #! /usr/bin/python
 
+# Downloads data from Eco-Counter, and publishes two tweets based on the data:
+# 1. Total Summary with 3 busiest counters
+# 2. Counts for each section. Midpoints (Median) if there are multiple counters for that part of the network.
+#
+
+
 import json
 import urllib2
 from datetime import date, timedelta

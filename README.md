@@ -105,7 +105,7 @@ Load the Eco Counter numbers into Graphite
 
 ### twitterBot.py
 
-The script that runs the #yycbike\_count Twitter feed. Runs once a day.
+The script that runs the #yycbike\_count Twitter feed. Runs once a day. Tweets a summary with the 3 busiest counters, and one with the numbers for each major route. If multiple counters are on a route - choses the midpoint/median.
 
 ### weatherLoad.py
 
