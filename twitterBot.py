@@ -12,15 +12,11 @@ from datetime import date, timedelta
 
 #sixohsix/twitter
 from twitter import *
+from config import *
 
-#Set Twitter Info
-token='REPLACE_ME'
-token_key='REPLACE_ME'
-con_secret='REPLACE_ME'
-con_secret_key='REPLACE_ME'
-
+# Twitter Info set by config.py file
 t = Twitter(
-	auth=OAuth(token, token_key, con_secret, con_secret_key))
+    auth=OAuth(twitter_token, twitter_token_key, twitter_con_secret, twitter_con_secret_key))
 
 # Get numbers from Eco Public
 # Watch out for timezones - this script fails to function past 5 PM MST if VM set to UTC.
