@@ -75,8 +75,8 @@ Westbound        | 101022582 |
 Eastbound        | 101024297 |
 Westbound        | 102024297 |
 **8th Avenue Centre** | 100024406 | July 9, 2015
-Eastbound        | 1010124406 | 
-Westbound        | 1020124406 | 
+Eastbound        | 101024406 | 
+Westbound        | 102024406 | 
 **9th Ave** | 100023675 | June 17, 2015
 Eastbound        | 101023675 |
 Westbound        | 102023675 |
