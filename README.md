@@ -14,6 +14,11 @@ The data is collected from the following sources:
     * 12th Ave. - [West Leg](http://www.eco-public.com/public2/?id=100022581), [Central Memorial](http://www.eco-public.com/public2/?id=100022580), [East Leg](http://www.eco-public.com/public2/?id=100022582)
     * 8th Ave. - [West Leg](http://www.eco-public.com/public2/?id=100024297), [Centre](http://www.eco-public.com/public2/?id=100024406)
     * 9th Ave. - [NMC](http://www.eco-public.com/public2/?id=100023675)
+    * [Riverwalk](http://www.eco-public.com/public2/?id=100128044)
+    * [Nose Creek at Bow River](http://www.eco-public.com/public2/?id=100128045)
+    * [Memorial Drive at Prince's Island](http://www.eco-public.com/public2/?id=100128046)
+    * [Memorial Drive at 19th St. NW](http://www.eco-public.com/public2/?id=100128047)
+    * [Lindsay Park](http://www.eco-public.com/public2/?id=100128048)
 
 ## Thank You
 
@@ -80,8 +85,37 @@ Westbound        | 102024406 |
 **9th Ave** | 100023675 | June 17, 2015
 Eastbound        | 101023675 |
 Westbound        | 102023675 |
+**Riverwalk**  | 100128044 | October 15, 2015
+Peds Northbound   | 101128044 | 
+Peds Southbound   | 102128044 | 
+Bikes Northbound  | 103128044 | 
+Bikes Southbound  | 104128044 | 
+**Nose Creek at Bow River**  | 100128045 | October 16, 2015
+Peds Northbound   | 101128045 | 
+Peds Southbound   | 102128045 | 
+Bikes Northbound  | 103128045 | 
+Bikes Southbound  | 104128045 | 
+**Memorial Drive at Prince's Island**  | 100128046 | October 16, 2015
+Peds Northbound   | 101128046 | 
+Peds Southbound   | 102128046 | 
+Bikes Northbound  | 103128046 | 
+Bikes Southbound  | 104128046 | 
+**Memorial Drive at 19th St. NW**  | 100128047 | October 15, 2015
+Peds Northbound   | 101128047 | 
+Peds Southbound   | 102128047 | 
+Bikes Northbound  | 103128047 | 
+Bikes Southbound  | 104128047 | 
+**Lindsay Park**  | 100128048 | October 15, 2015
+Peds Northbound   | 101128048 | 
+Peds Southbound   | 102128048 | 
+Bikes Northbound  | 103128048 | 
+Bikes Southbound  | 104128048 | 
 **2015 Totals** | 100023678 | January 1, 2015 
 
+Totems:
+**5th Street at CPR**: 100127783
+**8th Ave at 3rd St.**: 100128054 
+**12th Ave at 8th St.**: 100128055
 
 There were also some other presentation or counters that have been retired in favour of news ones.
 
