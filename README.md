@@ -86,25 +86,25 @@ Westbound        | 102024406 |
 Eastbound        | 101023675 |
 Westbound        | 102023675 |
 **Riverwalk**  | 100128044 | October 15, 2015
-Peds Northbound   | 101128044 | 
-Peds Southbound   | 102128044 | 
-Bikes Northbound  | 103128044 | 
-Bikes Southbound  | 104128044 | 
+Peds Eastbound   | 102128044 | 
+Peds Westbound   | 101128044 | 
+Bikes Eastbound  | 104128044 | 
+Bikes Westbound  | 103128044 | 
 **Nose Creek at Bow River**  | 100128045 | October 16, 2015
-Peds Northbound   | 101128045 | 
-Peds Southbound   | 102128045 | 
-Bikes Northbound  | 103128045 | 
-Bikes Southbound  | 104128045 | 
+Peds Northbound   | 102128045 | 
+Peds Southbound   | 101128045 | 
+Bikes Northbound  | 104128045 | 
+Bikes Southbound  | 103128045 | 
 **Memorial Drive at Prince's Island**  | 100128046 | October 16, 2015
-Peds Northbound   | 101128046 | 
-Peds Southbound   | 102128046 | 
-Bikes Northbound  | 103128046 | 
-Bikes Southbound  | 104128046 | 
+Peds Eastbound   | 102128046 | 
+Peds Westbound   | 101128046 | 
+Bikes Eastbound  | 104128046 | 
+Bikes Westbound  | 103128046 | 
 **Memorial Drive at 19th St. NW**  | 100128047 | October 15, 2015
-Peds Northbound   | 101128047 | 
-Peds Southbound   | 102128047 | 
-Bikes Northbound  | 103128047 | 
-Bikes Southbound  | 104128047 | 
+Peds Eastbound   | 101128047 | 
+Peds Westbound   | 102128047 | 
+Bikes Eastbound  | 103128047 | 
+Bikes Westbound  | 104128047 | 
 **Lindsay Park**  | 100128048 | October 15, 2015
 Peds Northbound   | 101128048 | 
 Peds Southbound   | 102128048 | 
