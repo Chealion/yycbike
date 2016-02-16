@@ -60,7 +60,32 @@ EIGHTH_8_WB={'installation':"eighth.eighthsw", 'direction':"westbound", 'url':"h
 EIGHTH_3_EB={'installation':"eighth.thirdsw", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/101024406/"}
 EIGHTH_3_WB={'installation':"eighth.thirdsw", 'direction':"westbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102024406/"}
 
-for i in [ PB_NB, PB_SB, PB_PED_NB, PB_PED_SB, SEVEN_NB, SEVEN_SB, STEPHEN_CAR, STEPHEN_BIKE, FIFTH_5_NB, FIFTH_5_SB, FIFTH_10_NB, FIFTH_10_SB, FIFTH_15_NB, FIFTH_15_SB, TWELFTH_8_EB, TWELFTH_8_WB, TWELFTH_2_EB, TWELFTH_2_WB, TWELFTH_3_EB, TWELFTH_3_WB, NINTH_4_EB, NINTH_4_WB, EIGHTH_8_EB, EIGHTH_8_WB, EIGHTH_3_EB, EIGHTH_3_WB ]:
+RIVERWALK_PED_EB={'installation':"yycwalk.riverwalk", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102128044/"}
+RIVERWALK_PED_WB={'installation':"yycwalk.riverwalk", 'direction':"westbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/101128044/"}
+RIVERWALK_EB={'installation':"riverwalk.bike", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/104128044/"}
+RIVERWALK_WB={'installation':"riverwalk.bike", 'direction':"westbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/103128044/"}
+
+NOSECREEK_BOW_PED_NB={'installation':"yycwalk.nosebow", 'direction':"northbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102128045/"}
+NOSECREEK_BOW_PED_SB={'installation':"yycwalk.nosebow", 'direction':"westbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/101128045/"}
+NOSECREEK_BOW_NB={'installation':"nosebow.bike", 'direction':"northbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/104128045/"}
+NOSECREEK_BOW_SB={'installation':"nosebow.bike", 'direction':"southbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/103128045/"}
+
+MEMORIAL_PRINCE_PED_EB={'installation':"yycwalk.memorialprinces", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102128046/"}
+MEMORIAL_PRINCE_PED_WB={'installation':"yycwalk.memorialprinces", 'direction':"westbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/101128046/"}
+MEMORIAL_PRINCE_EB={'installation':"memorialprinces.bike", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/104128046/"}
+MEMORIAL_PRINCE_WB={'installation':"memorialprinces.bike", 'direction':"westbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/103128046/"}
+
+MEMORIAL_19_PED_EB={'installation':"yycwalk.memorialnineteen", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/101128047/"}
+MEMORIAL_19_PED_WB={'installation':"yycwalk.memorialnineteen", 'direction':"westbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102128047/"}
+MEMORIAL_19_EB={'installation':"memorialnineteen.bike", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/103128047/"}
+MEMORIAL_19_WB={'installation':"memorialnineteen.bike", 'direction':"westbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/104128047/"}
+
+LINDSAY_PED_NB={'installation':"yycwalk.lindsay", 'direction':"northbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102128048/"}
+LINDSAY_PED_SB={'installation':"yycwalk.lindsay", 'direction':"southbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/101128048/"}
+LINDSAY_NB={'installation':"lindsay.bike", 'direction':"northbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/104128048/"}
+LINDSAY_SB={'installation':"lindsay.bike", 'direction':"southbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/103128048/"}
+
+for i in [ PB_NB, PB_SB, PB_PED_NB, PB_PED_SB, SEVEN_NB, SEVEN_SB, STEPHEN_CAR, STEPHEN_BIKE, FIFTH_5_NB, FIFTH_5_SB, FIFTH_10_NB, FIFTH_10_SB, FIFTH_15_NB, FIFTH_15_SB, TWELFTH_8_EB, TWELFTH_8_WB, TWELFTH_2_EB, TWELFTH_2_WB, TWELFTH_3_EB, TWELFTH_3_WB, NINTH_4_EB, NINTH_4_WB, EIGHTH_8_EB, EIGHTH_8_WB, EIGHTH_3_EB, EIGHTH_3_WB, RIVERWALK_PED_EB, RIVERWALK_PED_WB, RIVERWALK_EB, RIVERWALK_WB, NOSECREEK_BOW_PED_NB, NOSECREEK_BOW_PED_SB, NOSECREEK_BOW_NB, NOSECREEK_BOW_SB, MEMORIAL_PRINCE_PED_EB, MEMORIAL_PRINCE_PED_WB, MEMORIAL_PRINCE_EB, MEMORIAL_PRINCE_WB, MEMORIAL_19_PED_EB, MEMORIAL_19_PED_WB, MEMORIAL_19_EB, MEMORIAL_19_WB, LINDSAY_PED_NB, LINDSAY_PED_SB, LINDSAY_NB, LINDSAY_SB ]:
     # Specify yesterday to download
     url=i['url'] + "?begin=" + yesterday + "&end=" + yesterday + "&step=2"
     dailyurl=i['url'] + "?begin=" + yesterday + "&end=" + yesterday + "&step=4"

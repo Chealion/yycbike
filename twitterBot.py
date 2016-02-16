@@ -22,6 +22,7 @@ t = Twitter(
 # Watch out for timezones - this script fails to function past 5 PM MST if VM set to UTC.
 
 yesterday = date.today() - timedelta(1)
+fancyDate = yesterday.strftime('%a %b %d')
 yesterday = yesterday.strftime('%Y%m%d')
 
 # Wall of URLs
@@ -42,24 +43,31 @@ TWELVE_8={'value':0, 'name':'12 Ave at 8th', 'url':"http://www.eco-public.com/ap
 TWELVE_2={'value':0, 'name':'12 Ave at 2nd', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100022580/"}
 TWELVE_3={'value':0, 'name':'12 Ave at 3rd', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100022582/"}
 
-NINTH_4={'value':0, 'name':'9 Ave at 4th', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100023675/"}
-EIGHTH_8={'value':0, 'name':'8 Ave at 8th', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100024297/"}
+#NINTH_4={'value':0, 'name':'9 Ave at 4th', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100023675/"}
+#EIGHTH_8={'value':0, 'name':'8 Ave at 8th', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100024297/"}
 EIGHTH_3={'value':0, 'name':'8 Ave at 3rd', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100024406/"}
 
 total = 0
+errorFound = False
 
 # Load Data into Dictionaries
-
-for i in [ PB_NB, PB_SB, STEPHEN, SEVENTH, FIFTH_5, FIFTH_10, FIFTH_15, TWELVE_8, TWELVE_2, TWELVE_3, NINTH_4, EIGHTH_8, EIGHTH_3 ]:
+# Two counters out for winter
+#for i in [ PB_NB, PB_SB, STEPHEN, SEVENTH, FIFTH_5, FIFTH_10, FIFTH_15, TWELVE_8, TWELVE_2, TWELVE_3, NINTH_4, EIGHTH_8, EIGHTH_3 ]:
+for i in [ PB_NB, PB_SB, STEPHEN, SEVENTH, FIFTH_5, FIFTH_10, FIFTH_15, TWELVE_8, TWELVE_2, TWELVE_3, EIGHTH_3 ]:
     url=i['url'] + "?begin=" + yesterday + "&end=" + yesterday + "&step=4"
     response = urllib2.urlopen(url)
     json_data = response.read()
     try: 
-	amount = json.loads(json_data)[0]['comptage']
+        amount = json.loads(json_data)[0]['comptage']
     except:
-	# If comptage is null or not there at all - set to 0.
+	# If comptage is not there at all - set to 0.
 	amount = 0
+	errorFound = True
 	print "Error loading"
+    if amount is None or amount == 0:
+	amount = 0
+	errorFound = True
+	print "Error loading - amount is None"
     i['value'] = amount
 
 # Create Peace Bridge total
@@ -69,7 +77,8 @@ PB['value'] = PB_NB['value']+PB_SB['value']
 # Create list and sort for top 3.
 
 listOfCounters = []
-for i in [ PB, STEPHEN, SEVENTH, FIFTH_5, FIFTH_10, FIFTH_15, TWELVE_8, TWELVE_2, TWELVE_3, NINTH_4, EIGHTH_8, EIGHTH_3 ]:
+#for i in [ PB, STEPHEN, SEVENTH, FIFTH_5, FIFTH_10, FIFTH_15, TWELVE_8, TWELVE_2, TWELVE_3, NINTH_4, EIGHTH_8, EIGHTH_3 ]:
+for i in [ PB, STEPHEN, SEVENTH, FIFTH_5, FIFTH_10, FIFTH_15, TWELVE_8, TWELVE_2, TWELVE_3, EIGHTH_3 ]:
     listOfCounters.append(i)
     total += i['value']
 
@@ -93,7 +102,8 @@ for i in sortedList:
 
 # Use medians as recommended. Done by hand since we have three per.
 
-eighthAvg = sorted([EIGHTH_8['value'], EIGHTH_3['value'], NINTH_4['value']])[1]
+#eighthAvg = sorted([EIGHTH_8['value'], EIGHTH_3['value'], NINTH_4['value']])[1]
+eighthAvg = EIGHTH_3['value']
 fifthAvg = sorted([FIFTH_5['value'], FIFTH_10['value'], FIFTH_15['value']])[1]
 twelfthAvg = sorted([TWELVE_8['value'], TWELVE_2['value'], TWELVE_3['value']])[1]
 
@@ -101,7 +111,12 @@ twelfthAvg = sorted([TWELVE_8['value'], TWELVE_2['value'], TWELVE_3['value']])[1
 
 ## Top Hits
 
-count_status="Yesterday a total of %d #yycbike trips were counted.\n\nBusiest Counters:\n%s" % (total, top3String)
+if errorFound:
+    flag = '**Some Data Missing'
+else:
+    flag = ''
+
+count_status="%d #yycbike trips were counted on %s.\n\nBusiest:\n%s\n%s" % ( total, fancyDate, top3String, flag)
 print count_status
 
 t.statuses.update(
@@ -109,7 +124,8 @@ t.statuses.update(
 
 ## Summary
 
-count_status="Yesterday #yycbike trip counts:\n\n7 St: %d\nPeace Bridge: %d\nStephen Ave: %d\n8/9 Ave Mdn: %d\n5 St Mdn: %d\n12 Ave Mdn: %d" % (SEVENTH['value'], PB['value'], STEPHEN['value'], eighthAvg, fifthAvg, twelfthAvg)
+#count_status="Yesterday #yycbike trip counts:\n\n7 St: %d\nPeace Bridge: %d\nStephen Ave: %d\n8/9 Ave Mdn: %d\n5 St Mdn: %d\n12 Ave Mdn: %d" % (SEVENTH['value'], PB['value'], STEPHEN['value'], eighthAvg, fifthAvg, twelfthAvg)
+count_status="%s #yycbike trip counts:\n\n7 St: %d\nPeace Bridge: %d\nStephen Ave: %d\n8 Ave: %d\n5 St Mdn: %d\n12 Ave Mdn: %d\n%s" % (fancyDate, SEVENTH['value'], PB['value'], STEPHEN['value'], eighthAvg, fifthAvg, twelfthAvg, flag)
 print count_status
 
 t.statuses.update(
