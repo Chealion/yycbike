@@ -85,7 +85,10 @@ LINDSAY_PED_SB={'installation':"yycwalk.lindsay", 'direction':"southbound", 'url
 LINDSAY_NB={'installation':"lindsay.bike", 'direction':"northbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/104128048/"}
 LINDSAY_SB={'installation':"lindsay.bike", 'direction':"southbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/103128048/"}
 
-for i in [ PB_NB, PB_SB, PB_PED_NB, PB_PED_SB, SEVEN_NB, SEVEN_SB, STEPHEN_CAR, STEPHEN_BIKE, FIFTH_5_NB, FIFTH_5_SB, FIFTH_10_NB, FIFTH_10_SB, FIFTH_15_NB, FIFTH_15_SB, TWELFTH_8_EB, TWELFTH_8_WB, TWELFTH_2_EB, TWELFTH_2_WB, TWELFTH_3_EB, TWELFTH_3_WB, NINTH_4_EB, NINTH_4_WB, EIGHTH_8_EB, EIGHTH_8_WB, EIGHTH_3_EB, EIGHTH_3_WB, RIVERWALK_PED_EB, RIVERWALK_PED_WB, RIVERWALK_EB, RIVERWALK_WB, NOSECREEK_BOW_PED_NB, NOSECREEK_BOW_PED_SB, NOSECREEK_BOW_NB, NOSECREEK_BOW_SB, MEMORIAL_PRINCE_PED_EB, MEMORIAL_PRINCE_PED_WB, MEMORIAL_PRINCE_EB, MEMORIAL_PRINCE_WB, MEMORIAL_19_PED_EB, MEMORIAL_19_PED_WB, MEMORIAL_19_EB, MEMORIAL_19_WB, LINDSAY_PED_NB, LINDSAY_PED_SB, LINDSAY_NB, LINDSAY_SB ]:
+TENTH_NB={'installation':"tenthst", 'direction':"northbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102020661/"}
+TENTH_SB={'installation':"tenthst", 'direction':"southbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/101020661/"}
+
+for i in [ PB_NB, PB_SB, PB_PED_NB, PB_PED_SB, SEVEN_NB, SEVEN_SB, STEPHEN_CAR, STEPHEN_BIKE, FIFTH_5_NB, FIFTH_5_SB, FIFTH_10_NB, FIFTH_10_SB, FIFTH_15_NB, FIFTH_15_SB, TWELFTH_8_EB, TWELFTH_8_WB, TWELFTH_2_EB, TWELFTH_2_WB, TWELFTH_3_EB, TWELFTH_3_WB, NINTH_4_EB, NINTH_4_WB, EIGHTH_8_EB, EIGHTH_8_WB, EIGHTH_3_EB, EIGHTH_3_WB, RIVERWALK_PED_EB, RIVERWALK_PED_WB, RIVERWALK_EB, RIVERWALK_WB, NOSECREEK_BOW_PED_NB, NOSECREEK_BOW_PED_SB, NOSECREEK_BOW_NB, NOSECREEK_BOW_SB, MEMORIAL_PRINCE_PED_EB, MEMORIAL_PRINCE_PED_WB, MEMORIAL_PRINCE_EB, MEMORIAL_PRINCE_WB, MEMORIAL_19_PED_EB, MEMORIAL_19_PED_WB, MEMORIAL_19_EB, MEMORIAL_19_WB, LINDSAY_PED_NB, LINDSAY_PED_SB, LINDSAY_NB, LINDSAY_SB, TENTH_NB, TENTH_SB ]:
     # Specify yesterday to download
     url=i['url'] + "?begin=" + yesterday + "&end=" + yesterday + "&step=2"
     dailyurl=i['url'] + "?begin=" + yesterday + "&end=" + yesterday + "&step=4"

@@ -19,6 +19,7 @@ The data is collected from the following sources:
     * [Memorial Drive at Prince's Island](http://www.eco-public.com/public2/?id=100128046)
     * [Memorial Drive at 19th St. NW](http://www.eco-public.com/public2/?id=100128047)
     * [Lindsay Park](http://www.eco-public.com/public2/?id=100128048)
+    * [10th St.](http://www.eco-public.com/public2/?id=100020661)
 
 ## Thank You
 
@@ -110,6 +111,9 @@ Peds Northbound   | 101128048 |
 Peds Southbound   | 102128048 | 
 Bikes Northbound  | 103128048 | 
 Bikes Southbound  | 104128048 | 
+**10th St.** | 100020661 | March 22, 2016
+Northbound | 102020661 |
+Southbound | 101020661 |
 **2015 Totals** | 100023678 | January 1, 2015 
 
 Totems:
