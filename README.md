@@ -20,6 +20,7 @@ The data is collected from the following sources:
     * [Memorial Drive at 19th St. NW](http://www.eco-public.com/public2/?id=100128047)
     * [Lindsay Park](http://www.eco-public.com/public2/?id=100128048)
     * [10th St.](http://www.eco-public.com/public2/?id=100020661)
+    * [S Bow River Pathway](http://www.eco-public.com/public2/?id=100030402)
 
 ## Thank You
 
@@ -121,6 +122,11 @@ Bikes Southbound  | 104128048 |
 **10th St.** | 100020661 | March 22, 2016
 Northbound | 102020661 |
 Southbound | 101020661 |
+**S Bow River Pathway** | S Bow River Pathway | March 30, 2016
+Peds Eastbound   | 101130402 | 
+Peds Westbound   | 102130402 | 
+Bikes Eastbound  | 103130402 | 
+Bikes Westbound  | 104130402 | 
 **2015 Totals** | 100023678 | January 1, 2015 
 
 Totems:
