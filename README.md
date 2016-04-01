@@ -25,6 +25,13 @@ The data is collected from the following sources:
 
 Thanks to the City of Calgary and the team working on the project for making this data public. Thanks to those members of the public who pushed for this data to be made available. Awesome to have timely easy access to the data.
 
+## Tweet Information
+
+Two tweets are sent out each day:
+
+1 - Top 3 counters of the Pilot (5th St., 12th Ave, 8/9th Ave), Peace Bridge, and 7th Street counters. Pathway and 10th St counters are not included.
+2 - A "summary" tweet of the Pilot (5th St., 12th Ave, and 8/9th Ave), Peace Bridge and 7th Street counters. Pathway and 10th St counters are not included - partially to keep the total easier to compare, also to keep things focused on the pilot for now.
+
 ## Source Data Notes
 
 Environment Canada's data is available as hourly readings (a month's worth), or as daily readings (a year's worth). I use Station 50430 (the Airport)

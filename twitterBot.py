@@ -46,6 +46,8 @@ TWELVE_3={'value':0, 'name':'12 Ave at 3rd', 'url':"http://www.eco-public.com/ap
 #NINTH_4={'value':0, 'name':'9 Ave at 4th', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100023675/"}
 #EIGHTH_8={'value':0, 'name':'8 Ave at 8th', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100024297/"}
 EIGHTH_3={'value':0, 'name':'8 Ave at 3rd', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100024406/"}
+TENTH={'value':0, 'name':'10th St', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100020661/"}
+
 
 total = 0
 errorFound = False
@@ -78,7 +80,7 @@ PB['value'] = PB_NB['value']+PB_SB['value']
 
 listOfCounters = []
 #for i in [ PB, STEPHEN, SEVENTH, FIFTH_5, FIFTH_10, FIFTH_15, TWELVE_8, TWELVE_2, TWELVE_3, NINTH_4, EIGHTH_8, EIGHTH_3 ]:
-for i in [ PB, STEPHEN, SEVENTH, FIFTH_5, FIFTH_10, FIFTH_15, TWELVE_8, TWELVE_2, TWELVE_3, EIGHTH_3 ]:
+for i in [ PB, STEPHEN, SEVENTH, FIFTH_5, FIFTH_10, FIFTH_15, TWELVE_8, TWELVE_2, TWELVE_3, EIGHTH_3]:
     listOfCounters.append(i)
     total += i['value']
 
@@ -116,7 +118,7 @@ if errorFound:
 else:
     flag = ''
 
-count_status="%d #yycbike trips were counted on %s.\n\nBusiest:\n%s\n%s" % ( total, fancyDate, top3String, flag)
+count_status="%d #yycbike trips were counted downtown on %s.\n\nBusiest:\n%s\n%s" % ( total, fancyDate, top3String, flag)
 print count_status
 
 t.statuses.update(
@@ -125,7 +127,7 @@ t.statuses.update(
 ## Summary
 
 #count_status="Yesterday #yycbike trip counts:\n\n7 St: %d\nPeace Bridge: %d\nStephen Ave: %d\n8/9 Ave Mdn: %d\n5 St Mdn: %d\n12 Ave Mdn: %d" % (SEVENTH['value'], PB['value'], STEPHEN['value'], eighthAvg, fifthAvg, twelfthAvg)
-count_status="%s #yycbike trip counts:\n\n7 St: %d\nPeace Bridge: %d\nStephen Ave: %d\n8 Ave: %d\n5 St Mdn: %d\n12 Ave Mdn: %d\n%s" % (fancyDate, SEVENTH['value'], PB['value'], STEPHEN['value'], eighthAvg, fifthAvg, twelfthAvg, flag)
+count_status="%s #yycbike trip counts:\n\n10St: %d\n7 St: %d\nPeace Bridge: %d\nStephen Ave: %d\n8 Ave: %d\n5 St Mdn: %d\n12 Ave Mdn: %d\n%s" % (fancyDate, TENTH['value'], SEVENTH['value'], PB['value'], STEPHEN['value'], eighthAvg, fifthAvg, twelfthAvg, flag)
 print count_status
 
 t.statuses.update(
