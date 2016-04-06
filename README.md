@@ -13,7 +13,7 @@ The data is collected from the following sources:
     * 5th St. - [North Leg](http://www.eco-public.com/public2/?id=100022540), [Under the Tracks](http://www.eco-public.com/public2/?id=100020095), [South Leg](http://www.eco-public.com/public2/?id=100022541)
     * 12th Ave. - [West Leg](http://www.eco-public.com/public2/?id=100022581), [Central Memorial](http://www.eco-public.com/public2/?id=100022580), [East Leg](http://www.eco-public.com/public2/?id=100022582)
     * 8th Ave. - [West Leg](http://www.eco-public.com/public2/?id=100024297), [Centre](http://www.eco-public.com/public2/?id=100024406)
-    * 9th Ave. - [NMC](http://www.eco-public.com/public2/?id=100023675)
+    * 9th Ave. - [NMC](http://www.eco-public.com/public2/?id=100030452)
     * [Riverwalk](http://www.eco-public.com/public2/?id=100128044)
     * [Nose Creek at Bow River](http://www.eco-public.com/public2/?id=100128045)
     * [Memorial Drive at Prince's Island](http://www.eco-public.com/public2/?id=100128046)
@@ -91,9 +91,9 @@ Westbound        | 102024297 |
 **8th Avenue Centre** | 100024406 | July 9, 2015
 Eastbound        | 101024406 | 
 Westbound        | 102024406 | 
-**9th Ave** | 100023675 | June 17, 2015
-Eastbound        | 101023675 |
-Westbound        | 102023675 |
+**9th Ave** | 100030452 | June 17, 2015
+Eastbound        | 101030452 |
+Westbound        | 102030452 |
 **Riverwalk**  | 100128044 | October 15, 2015
 Peds Eastbound   | 102128044 | 
 Peds Westbound   | 101128044 | 
@@ -143,6 +143,7 @@ Installation Name |     ID    | Notes
 **8th Ave**       | 100024162 | 
 **Peace Bridge**  | 100018487 | Original counter page for only bikes
 **Stephen Ave**   | 100020243 | Original Stephen Ave Page didn't show peds.
+**9th Ave**       | 100023675 | Original portable counter for 9th Ave.
 
 ## File Listing
 
