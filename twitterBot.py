@@ -45,7 +45,7 @@ TWELVE_3={'value':0, 'name':'12 Ave at 3rd', 'url':"http://www.eco-public.com/ap
 
 #NINTH_4={'value':0, 'name':'9 Ave at 4th', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100030452/"}
 #EIGHTH_8={'value':0, 'name':'8 Ave at 8th', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100024297/"}
-EIGHTH_3={'value':0, 'name':'8 Ave at 3rd', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100024406/"}
+EIGHTH_3={'value':0, 'name':'8 Ave at 3rd', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100030768/"}
 TENTH={'value':0, 'name':'10th St', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100020661/"}
 
 

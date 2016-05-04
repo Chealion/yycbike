@@ -57,8 +57,8 @@ NINTH_4_WB={'installation':"ninth.fourthse", 'direction':"westbound", 'url':"htt
 EIGHTH_8_EB={'installation':"eighth.eighthsw", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/101024297/"}
 EIGHTH_8_WB={'installation':"eighth.eighthsw", 'direction':"westbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102024297/"}
 
-EIGHTH_3_EB={'installation':"eighth.thirdsw", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/101024406/"}
-EIGHTH_3_WB={'installation':"eighth.thirdsw", 'direction':"westbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102024406/"}
+EIGHTH_3_EB={'installation':"eighth.thirdsw", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/101030768/"}
+EIGHTH_3_WB={'installation':"eighth.thirdsw", 'direction':"westbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102030768/"}
 
 RIVERWALK_PED_EB={'installation':"yycwalk.riverwalk", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102128044/"}
 RIVERWALK_PED_WB={'installation':"yycwalk.riverwalk", 'direction':"westbound", 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/101128044/"}

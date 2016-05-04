@@ -12,7 +12,7 @@ The data is collected from the following sources:
     * [7th St.](http://www.eco-public.com/public2/?id=100017181)
     * 5th St. - [North Leg](http://www.eco-public.com/public2/?id=100022540), [Under the Tracks](http://www.eco-public.com/public2/?id=100020095), [South Leg](http://www.eco-public.com/public2/?id=100022541)
     * 12th Ave. - [West Leg](http://www.eco-public.com/public2/?id=100022581), [Central Memorial](http://www.eco-public.com/public2/?id=100022580), [East Leg](http://www.eco-public.com/public2/?id=100022582)
-    * 8th Ave. - [West Leg](http://www.eco-public.com/public2/?id=100024297), [Centre](http://www.eco-public.com/public2/?id=100024406)
+    * 8th Ave. - [West Leg](http://www.eco-public.com/public2/?id=100024297), [Centre](http://www.eco-public.com/public2/?id=100030768)
     * 9th Ave. - [NMC](http://www.eco-public.com/public2/?id=100030452)
     * [Riverwalk](http://www.eco-public.com/public2/?id=100128044)
     * [Nose Creek at Bow River](http://www.eco-public.com/public2/?id=100128045)
@@ -88,9 +88,9 @@ Westbound        | 101022582 |
 **8th Avenue W Leg** | 100024297 | July 11, 2015
 Eastbound        | 101024297 |
 Westbound        | 102024297 |
-**8th Avenue Centre** | 100024406 | July 9, 2015
-Eastbound        | 101024406 | 
-Westbound        | 102024406 | 
+**8th Avenue Centre** | 100030768 | July 9, 2015
+Eastbound        | 101030768 | 
+Westbound        | 102030768 | 
 **9th Ave** | 100030452 | June 17, 2015
 Eastbound        | 101030452 |
 Westbound        | 102030452 |
@@ -131,7 +131,7 @@ Bikes Westbound  | 104130402 |
 
 Totems:
 **5th Street at CPR**: 100127783
-**8th Ave at 3rd St.**: 100128054 
+**8th Ave at 3rd St.**: 100030761 
 **12th Ave at 8th St.**: 100128055
 
 There were also some other presentation or counters that have been retired in favour of news ones.
@@ -144,6 +144,8 @@ Installation Name |     ID    | Notes
 **Peace Bridge**  | 100018487 | Original counter page for only bikes
 **Stephen Ave**   | 100020243 | Original Stephen Ave Page didn't show peds.
 **9th Ave**       | 100023675 | Original portable counter for 9th Ave.
+**8th Ave**       | 100024406 | 8th Ave and 3rd St. Changed in late April 2016.
+**8th Ave Display** | 100128054 | 
 
 ## File Listing
 
