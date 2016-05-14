@@ -31,7 +31,9 @@ Thanks to the City of Calgary and the team working on the project for making thi
 Two tweets are sent out each day:
 
 1 - Top 3 counters of the Pilot (5th St., 12th Ave, 8/9th Ave), Peace Bridge, and 7th Street counters. Pathway and 10th St counters are not included.
-2 - A "summary" tweet of the Pilot (5th St., 12th Ave, and 8/9th Ave), Peace Bridge and 7th Street counters. Pathway and 10th St counters are not included - partially to keep the total easier to compare, also to keep things focused on the pilot for now.
+2 - A "summary" tweet of the Pilot (5th St., 12th Ave, and 8/9th Ave), Peace Bridge and 7th Street counters. For routes with multiple counters (8th, 5th, 12th) the median is posted. Pathway and 10th St counters are not included - both to keep historic totals comparable, and to focus on the pilot with existing counters.
+
+The total value is best used as a comparison to itself over the course of time.
 
 ## Source Data Notes
 
