@@ -21,6 +21,7 @@ The data is collected from the following sources:
     * [Lindsay Park](http://www.eco-public.com/public2/?id=100128048)
     * [10th St.](http://www.eco-public.com/public2/?id=100020661)
     * [S Bow River Pathway](http://www.eco-public.com/public2/?id=100030402)
+    * [Wetlands Trail Corridor]()
 
 ## Thank You
 
@@ -129,6 +130,11 @@ Peds Eastbound   | 101130402 |
 Peds Westbound   | 102130402 | 
 Bikes Eastbound  | 103130402 | 
 Bikes Westbound  | 104130402 | 
+**Wetlands Trail Counter** | Wetland N of Copperfield | May 5, 2016
+Peds Eastbound   | 101130911 |
+Peds Westbound   | 102130911 |
+Bikes Eastbound  | 103130911 |
+Bikes Westbound  | 104130911 |
 **2015 Totals** | 100023678 | January 1, 2015 
 
 Totems:
