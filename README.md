@@ -192,3 +192,7 @@ yycbike.weather.hourly.feels
 yycbike.weather.hourly.windspeed  
 yycbike.weather.hourly.winddir  
 yycbike.weather.hourly.humidity
+
+## LICENSE
+
+[MIT License](http://choosealicense.com/licenses/mit/)
