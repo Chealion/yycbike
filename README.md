@@ -90,7 +90,10 @@ Eastbound        | 102022582 |
 Westbound        | 101022582 |
 **8th Avenue W Leg** | 100024297 | July 11, 2015
 Eastbound        | 101024297 |
-Westbound        | 102024297 |
+Westbound        | 102024297 | Only WB in 2016?
+**8th Ave W Leg Perm Counter** | 100031441 | May 15, 2016
+Bikes Eastbound | 102031441 |
+Bikes Westbound | 101031441 |
 **8th Avenue Centre** | 100030768 | July 9, 2015
 Eastbound        | 101030768 | 
 Westbound        | 102030768 | 
@@ -130,7 +133,7 @@ Peds Eastbound   | 101130402 |
 Peds Westbound   | 102130402 | 
 Bikes Eastbound  | 103130402 | 
 Bikes Westbound  | 104130402 | 
-**Wetlands Trail Counter** | Wetland N of Copperfield | May 5, 2016
+**Wetlands Trail Counter** | 100130911 | May 5, 2016
 Peds Eastbound   | 101130911 |
 Peds Westbound   | 102130911 |
 Bikes Eastbound  | 103130911 |
