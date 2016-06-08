@@ -31,7 +31,7 @@ Thanks to the City of Calgary and the team working on the project for making thi
 
 Two tweets are sent out each day:
 
-1 - Top 3 counters of the Pilot (5th St., 12th Ave, 8/9th Ave), Peace Bridge, and 7th Street counters. Pathway and 10th St counters are not included.
+1 - Top 3 counters of the Pilot (5th St., 12th Ave, 8/9th Ave), Peace Bridge, and 7th Street counters. Pathway and 10th St counters are not included.  
 2 - A "summary" tweet of the Pilot (5th St., 12th Ave, and 8/9th Ave), Peace Bridge and 7th Street counters. For routes with multiple counters (8th, 5th, 12th) the median is posted. Pathway and 10th St counters are not included - both to keep historic totals comparable, and to focus on the pilot with existing counters.
 
 The total value is best used as a comparison to itself over the course of time.
@@ -41,11 +41,11 @@ The total value is best used as a comparison to itself over the course of time.
 Environment Canada's data is available as hourly readings (a month's worth), or as daily readings (a year's worth). I use Station 50430 (the Airport)
 
     Hourly Data:
-    http://climate.weather.gc.ca/climateData/bulkdata_e.html?format=csv&stationID=50430&Prov=AB&hlyRange=2012-07-09&7C2014-01-01&Year=2014&Month=1&Day=1&timeframe=1&submit=Download+Data
+    http://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=50430&Year=2016&Month=06&Day=07&submit=Download+Data&timeframe=1
     Daily Data:
-    http://climate.weather.gc.ca/climateData/bulkdata_e.html?format=csv&stationID=50430&Prov=AB&dlyRange=2012-07-97&7C2015-01-01&Year=2015&Month=1&Day=1&timeframe=2&submit=Download+Data
+    http://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=50430&Prov=AB&dlyRange=2012-07-09&7C2016-06-07&Year=2016&Month=06&Day=07&submit=Download+Data&timeframe=2
 
-Eco-Counter has a private API that can be figured out by reading the AJAX requests performed on each of the counter pages. The data in question is owned by the City of Calgary. The counts are posted once a day normally between 5:00 and 6:00 AM MST, so the counts are *not* live.
+Eco-Counter has a private API that can be figured out by reading the AJAX requests performed on each of the counter pages. The data in question is owned by the City of Calgary. The counts are posted once a day normally between 5:00 and 6:00 AM MST, so the counts are **not** live.
 
     Individual Data Sets:
     http://www.eco-public.com/api/h7q239dd/data/periode/[ID]/?begin=YYYYMMDD&endYYYYMMDD&step=[NUMBER]

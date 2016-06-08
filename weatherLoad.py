@@ -22,17 +22,10 @@ day = yesterday.strftime('%d')
 
 #Installations
 
-HOURLY_URL='http://climate.weather.gc.ca/climateData/bulkdata_e.html?format=csv&stationID=50430&Prov=AB&hlyRange=2012-07-09&7C' + year + '-' + month + '-' + day + '&Year=' + year + '&Month=' + month + '&Day=' + day + '&submit=Download+Data&timeframe=1'
-DAILY_URL='http://climate.weather.gc.ca/climateData/bulkdata_e.html?format=csv&stationID=50430&Prov=AB&dlyRange=2012-07-09&7C' + year + '-' + month + '-' + day + '&Year=' + year + '&Month=' + month + '&Day=' + day + '&submit=Download+Data&timeframe=2'
+# URLs per ftp://ftp.tor.ec.gc.ca/Pub/Get_More_Data_Plus_de_donnees/Readme.txt
 
-
-#To avoid duplicating the data in Elasticsearch delete old data based on timestamp:
-# Delete current month's set of hourly data
-startOfMonth=yesterday.replace(day=1)
-startOfYear=yesterday.replace(day=1,month=1)
-startOfMonthISO8601=startOfMonth.isoformat()
-yesterdayISO8601=yesterday.isoformat()
-startOfYearISO8601=startOfYear.isoformat()
+HOURLY_URL='http://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=50430&Year=' + year + '&Month=' + month + '&Day=' + day + '&submit=Download+Data&timeframe=1'
+DAILY_URL= 'http://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=50430&Year=' + year + '&Month=' + month + '&Day=' + day + '&submit=Download+Data&timeframe=2'
 
 ## HOURLY
 
@@ -95,7 +88,6 @@ for row in csv_reader:
         metriclog.write(metric_string + "\n")
         graphitesend.send('weather.hourly.feelslike', str(feelslike), timestamp)
 
-
 ## DAILY
 url = DAILY_URL
 print 'Loading Daily Weather Data...'
@@ -149,6 +141,7 @@ for row in csv_reader:
         metric_string = 'weather.daily.snowamt ' + str(row['SnowonGround']) + ' ' + timestamp
         metriclog.write(metric_string + "\n")
         graphitesend.send('weather.daily.snowamt', str(row['SnowonGround']), timestamp)
+
 
 # OUTPUT FORMAT:
 # <metric path> <metric value> <metric timestamp>
