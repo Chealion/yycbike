@@ -43,8 +43,8 @@ TWELVE_8={'value':0, 'name':'12 Ave at 8th', 'url':"http://www.eco-public.com/ap
 TWELVE_2={'value':0, 'name':'12 Ave at 2nd', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100022580/"}
 TWELVE_3={'value':0, 'name':'12 Ave at 3rd', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100022582/"}
 
-#NINTH_4={'value':0, 'name':'9 Ave at 4th', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100030452/"}
-#EIGHTH_8={'value':0, 'name':'8 Ave at 8th', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100024297/"}
+NINTH_4={'value':0, 'name':'9 Ave at 4th', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100030452/"}
+EIGHTH_8={'value':0, 'name':'8 Ave at 8th', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100031441/"}
 EIGHTH_3={'value':0, 'name':'8 Ave at 3rd', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100030768/"}
 TENTH={'value':0, 'name':'10th St', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100020661/"}
 
@@ -54,8 +54,8 @@ errorFound = False
 
 # Load Data into Dictionaries
 # Two counters out for winter
-#for i in [ PB_NB, PB_SB, STEPHEN, SEVENTH, FIFTH_5, FIFTH_10, FIFTH_15, TWELVE_8, TWELVE_2, TWELVE_3, NINTH_4, EIGHTH_8, EIGHTH_3 ]:
-for i in [ PB_NB, PB_SB, STEPHEN, SEVENTH, FIFTH_5, FIFTH_10, FIFTH_15, TWELVE_8, TWELVE_2, TWELVE_3, EIGHTH_3 ]:
+for i in [ PB_NB, PB_SB, STEPHEN, SEVENTH, FIFTH_5, FIFTH_10, FIFTH_15, TWELVE_8, TWELVE_2, TWELVE_3, NINTH_4, EIGHTH_8, EIGHTH_3 ]:
+#for i in [ PB_NB, PB_SB, STEPHEN, SEVENTH, FIFTH_5, FIFTH_10, FIFTH_15, TWELVE_8, TWELVE_2, TWELVE_3, EIGHTH_3 ]:
     url=i['url'] + "?begin=" + yesterday + "&end=" + yesterday + "&step=4"
     response = urllib2.urlopen(url)
     json_data = response.read()
@@ -79,9 +79,10 @@ PB['value'] = PB_NB['value']+PB_SB['value']
 # Create list and sort for top 3.
 
 listOfCounters = []
-#for i in [ PB, STEPHEN, SEVENTH, FIFTH_5, FIFTH_10, FIFTH_15, TWELVE_8, TWELVE_2, TWELVE_3, NINTH_4, EIGHTH_8, EIGHTH_3 ]:
-for i in [ PB, STEPHEN, SEVENTH, FIFTH_5, FIFTH_10, FIFTH_15, TWELVE_8, TWELVE_2, TWELVE_3, EIGHTH_3]:
+for i in [ PB, STEPHEN, SEVENTH, FIFTH_5, FIFTH_10, FIFTH_15, TWELVE_8, TWELVE_2, TWELVE_3, NINTH_4, EIGHTH_8, EIGHTH_3 ]:
+#for i in [ PB, STEPHEN, SEVENTH, FIFTH_5, FIFTH_10, FIFTH_15, TWELVE_8, TWELVE_2, TWELVE_3, EIGHTH_3]:
     listOfCounters.append(i)
+    print "%s: %d" % (i['name'], i['value'])
     total += i['value']
 
 
@@ -114,11 +115,11 @@ twelfthAvg = sorted([TWELVE_8['value'], TWELVE_2['value'], TWELVE_3['value']])[1
 ## Top Hits
 
 if errorFound:
-    flag = '**Some Data Missing'
+    flag = '*Some Data Missing'
 else:
     flag = ''
 
-count_status="%d #yycbike trips were counted downtown on %s.\n\nBusiest:\n%s\n%s" % ( total, fancyDate, top3String, flag)
+count_status="%d #yycbike trips were counted downtown on %s.\n\nBusiest:\n%s%s" % ( total, fancyDate, top3String, flag)
 print count_status
 
 t.statuses.update(
@@ -126,8 +127,7 @@ t.statuses.update(
 
 ## Summary
 
-#count_status="Yesterday #yycbike trip counts:\n\n7 St: %d\nPeace Bridge: %d\nStephen Ave: %d\n8/9 Ave Mdn: %d\n5 St Mdn: %d\n12 Ave Mdn: %d" % (SEVENTH['value'], PB['value'], STEPHEN['value'], eighthAvg, fifthAvg, twelfthAvg)
-count_status="%s #yycbike trip counts:\n\n10St: %d\n7 St: %d\nPeace Bridge: %d\nStephen Ave: %d\n8 Ave: %d\n5 St Mdn: %d\n12 Ave Mdn: %d\n%s" % (fancyDate, TENTH['value'], SEVENTH['value'], PB['value'], STEPHEN['value'], eighthAvg, fifthAvg, twelfthAvg, flag)
+count_status="%s #yycbike trip counts:\n\n10 St: %d\n7 St: %d\nPeace Bridge: %d\nStephen Ave: %d\n8 Ave: %d\n5 St Mdn: %d\n12 Ave Mdn: %d" % (fancyDate, TENTH['value'], SEVENTH['value'], PB['value'], STEPHEN['value'], eighthAvg, fifthAvg, twelfthAvg)
 print count_status
 
 t.statuses.update(
