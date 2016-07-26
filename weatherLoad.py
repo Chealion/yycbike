@@ -111,7 +111,7 @@ for row in csv_reader:
         timestamp = str(int(timestamp))
         #print row
 
-        if row['Max'] is None or row['Max'] == '':
+        if row['Max'] is None or row['Max'] == '' or row['Min'] == '':
             continue
 
         metric_string = 'weather.daily.high ' + str(row['Max']) + ' ' + timestamp
