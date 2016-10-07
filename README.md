@@ -21,7 +21,8 @@ The data is collected from the following sources:
     * [Lindsay Park](http://www.eco-public.com/public2/?id=100128048)
     * [10th St.](http://www.eco-public.com/public2/?id=100020661)
     * [S Bow River Pathway](http://www.eco-public.com/public2/?id=100030402)
-    * [Wetlands Trail Corridor]()
+    * Wetlands Trail Corridor
+    * [Edmonton Trail Cycle Track](http://www.eco-public.com/public2/?id=100033550)
 
 ## Thank You
 
@@ -46,6 +47,8 @@ Environment Canada's data is available as hourly readings (a month's worth), or 
     http://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=50430&Prov=AB&dlyRange=2012-07-09&7C2016-06-07&Year=2016&Month=06&Day=07&submit=Download+Data&timeframe=2
 
 Eco-Counter has a private API that can be figured out by reading the AJAX requests performed on each of the counter pages. The data in question is owned by the City of Calgary. The counts are posted once a day normally between 5:00 and 6:00 AM MST, so the counts are **not** live.
+
+API Breakdown:
 
     Individual Data Sets:
     http://www.eco-public.com/api/h7q239dd/data/periode/[ID]/?begin=YYYYMMDD&endYYYYMMDD&step=[NUMBER]
@@ -138,6 +141,9 @@ Peds Eastbound   | 101130911 |
 Peds Westbound   | 102130911 |
 Bikes Eastbound  | 103130911 |
 Bikes Westbound  | 104130911 |
+**Edmonton Trail Cycle Track** | 100033550 | Sept. 7, 2016
+Northbound | 102033550 |
+Southbound | 101033550 |
 **2015 Totals** | 100023678 | January 1, 2015 
 
 Totems:
