@@ -51,11 +51,11 @@ Eco-Counter has a private API that can be figured out by reading the AJAX reques
 API Breakdown:
 
     Individual Data Sets:
-    http://www.eco-public.com/api/h7q239dd/data/periode/[ID]/?begin=YYYYMMDD&endYYYYMMDD&step=[NUMBER]
+    http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/[ID]/?begin=YYYYMMDD&endYYYYMMDD&step=[NUMBER]
     Data Set Names for Installation:
-    http://www.eco-public.com/api/h7q239dd/counter/channels/[ID]
+    http://www.eco-public.com/api/cw6Xk4jW4X4R/counter/channels/[ID]
     Public Page Details:
-    http://www.eco-public.com/api/dfd15sd1ds/public/page/[ID]
+    http://www.eco-public.com/api/cw6Xk4jW4X4R/public/page/[ID]
 
 The step ID can be 2 (daily), 3 (hourly), or 4 (15 minute).
 
@@ -146,9 +146,9 @@ Northbound | 102033550 |
 Southbound | 101033550 |
 **2015 Totals** | 100023678 | January 1, 2015 
 
-Totems:
-**5th Street at CPR**: 100127783
-**8th Ave at 3rd St.**: 100030761 
+Totems:  
+**5th Street at CPR**: 100127783  
+**8th Ave at 3rd St.**: 100030761  
 **12th Ave at 8th St.**: 100128055
 
 There were also some other presentation or counters that have been retired in favour of news ones.

@@ -28,25 +28,25 @@ yesterday = yesterday.strftime('%Y%m%d')
 # Wall of URLs
 
 PB={'value':0, 'name':'Peace Bridge', 'url':"null"}
-PB_NB={'value':0, 'name':'PB_NB', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/103013817/"}
-PB_SB={'value':0, 'name':'PB_SB', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/104013817/"}
+PB_NB={'value':0, 'name':'PB_NB', 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103013817/"}
+PB_SB={'value':0, 'name':'PB_SB', 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/104013817/"}
 
-STEPHEN={'value':0, 'name':'Stephen Ave', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/102020207/"}
+STEPHEN={'value':0, 'name':'Stephen Ave', 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102020207/"}
 
-SEVENTH={'value':0, 'name':'7th St', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100017181/"}
+SEVENTH={'value':0, 'name':'7th St', 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/100017181/"}
 
-FIFTH_5={'value':0, 'name':'5 St at 5th', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100022540/"}
-FIFTH_10={'value':0, 'name':'5 St at CPR', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100020095/"}
-FIFTH_15={'value':0, 'name':'5 St at 15th', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100022541/"}
+FIFTH_5={'value':0, 'name':'5 St at 5th', 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/100022540/"}
+FIFTH_10={'value':0, 'name':'5 St at CPR', 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/100020095/"}
+FIFTH_15={'value':0, 'name':'5 St at 15th', 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/100022541/"}
 
-TWELVE_8={'value':0, 'name':'12 Ave at 8th', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100022581/"}
-TWELVE_2={'value':0, 'name':'12 Ave at 2nd', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100022580/"}
-TWELVE_3={'value':0, 'name':'12 Ave at 3rd', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100022582/"}
+TWELVE_8={'value':0, 'name':'12 Ave at 8th', 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/100022581/"}
+TWELVE_2={'value':0, 'name':'12 Ave at 2nd', 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/100022580/"}
+TWELVE_3={'value':0, 'name':'12 Ave at 3rd', 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/100022582/"}
 
-NINTH_4={'value':0, 'name':'9 Ave at 4th', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100030452/"}
-EIGHTH_8={'value':0, 'name':'8 Ave at 8th', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100031441/"}
-EIGHTH_3={'value':0, 'name':'8 Ave at 3rd', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100030768/"}
-TENTH={'value':0, 'name':'10th St', 'url':"http://www.eco-public.com/api/h7q239dd/data/periode/100020661/"}
+NINTH_4={'value':0, 'name':'9 Ave at 4th', 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/100030452/"}
+EIGHTH_8={'value':0, 'name':'8 Ave at 8th', 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/100031441/"}
+EIGHTH_3={'value':0, 'name':'8 Ave at 3rd', 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/100030768/"}
+TENTH={'value':0, 'name':'10th St', 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/100020661/"}
 
 
 total = 0
