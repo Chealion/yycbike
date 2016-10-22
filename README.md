@@ -23,6 +23,10 @@ The data is collected from the following sources:
     * [S Bow River Pathway](http://www.eco-public.com/public2/?id=100030402)
     * Wetlands Trail Corridor
     * [Edmonton Trail Cycle Track](http://www.eco-public.com/public2/?id=100033550)
+    * [Nose Hill Park](http://www.eco-public.com/public2/?id=100134303)
+    * [Parkdale](http://www.eco-public.com/public2/?id=100134305)
+    * [North Glenmore](http://www.eco-public.com/public2/?id=100134306)
+    * [South Glenmore](http://www.eco-public.com/public2/?id=100134304)
 
 ## Thank You
 
@@ -144,6 +148,26 @@ Bikes Westbound  | 104130911 |
 **Edmonton Trail Cycle Track** | 100033550 | Sept. 7, 2016
 Northbound | 102033550 |
 Southbound | 101033550 |
+**Nose Hill Park** | 100134303 | October 17, 2016
+Peds Southbound   | 101134303 |
+Peds Northbound   | 102134303 |
+Bikes Southbound  | 103134303 |
+Bikes Northbound  | 104134303 |
+**Parkdale Bow River Pathway** | 100134305 | October 13, 2016
+Peds Eastbound   | 101134305 |
+Peds Westbound   | 102134305 |
+Bikes Eastbound  | 103134305 |
+Bikes Westbound  | 104134305 |
+**North Glenmore** | 100134306 | October 13, 2016
+Peds Eastbound   | 101134306 |
+Peds Westbound   | 102134306 |
+Bikes Eastbound  | 103134306 |
+Bikes Westbound  | 104134306 |
+**South Glenmore** | 100134304 | October 13, 2016
+Peds Northbound   | 101134304 |
+Peds Southbound   | 102134304 |
+Bikes Northbound  | 103134304 |
+Bikes Southbound  | 104134304 |
 **2015 Totals** | 100023678 | January 1, 2015 
 
 Totems:  
