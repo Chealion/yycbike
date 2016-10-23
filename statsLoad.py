@@ -54,8 +54,8 @@ TWELFTH_3_WB={'installation':"twelfth.thirdse", 'direction':"westbound", 'url':"
 NINTH_4_EB={'installation':"ninth.fourthse", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101030452/"}
 NINTH_4_WB={'installation':"ninth.fourthse", 'direction':"westbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102030452/"}
 
-EIGHTH_8_EB={'installation':"eighth.eighthsw", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101024297/"}
-EIGHTH_8_WB={'installation':"eighth.eighthsw", 'direction':"westbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102024297/"}
+EIGHTH_8_EB={'installation':"eighth.eighthsw", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101031441/"}
+EIGHTH_8_WB={'installation':"eighth.eighthsw", 'direction':"westbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102031441/"}
 
 EIGHTH_3_EB={'installation':"eighth.thirdsw", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101030768/"}
 EIGHTH_3_WB={'installation':"eighth.thirdsw", 'direction':"westbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102030768/"}
