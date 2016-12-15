@@ -12,7 +12,7 @@ The data is collected from the following sources:
     * [7th St.](http://www.eco-public.com/public2/?id=100017181)
     * 5th St. - [North Leg](http://www.eco-public.com/public2/?id=100022540), [Under the Tracks](http://www.eco-public.com/public2/?id=100020095), [South Leg](http://www.eco-public.com/public2/?id=100022541)
     * 12th Ave. - [West Leg](http://www.eco-public.com/public2/?id=100022581), [Central Memorial](http://www.eco-public.com/public2/?id=100022580), [East Leg](http://www.eco-public.com/public2/?id=100022582)
-    * 8th Ave. - [West Leg](http://www.eco-public.com/public2/?id=100024297), [Centre](http://www.eco-public.com/public2/?id=100030768)
+    * 8th Ave. - [West Leg](http://www.eco-public.com/public2/?id=100031441), [Centre](http://www.eco-public.com/public2/?id=100030768)
     * 9th Ave. - [NMC](http://www.eco-public.com/public2/?id=100030452)
     * [Riverwalk](http://www.eco-public.com/public2/?id=100128044)
     * [Nose Creek at Bow River](http://www.eco-public.com/public2/?id=100128045)
@@ -136,10 +136,10 @@ Bikes Southbound  | 104128048 |
 Northbound | 102020661 |
 Southbound | 101020661 |
 **S Bow River Pathway** | S Bow River Pathway | March 30, 2016
-Peds Eastbound   | 101130402 | 
-Peds Westbound   | 102130402 | 
-Bikes Eastbound  | 103130402 | 
-Bikes Westbound  | 104130402 | 
+Peds Eastbound   | 101030402 | 
+Peds Westbound   | 102030402 | 
+Bikes Eastbound  | 103030402 | 
+Bikes Westbound  | 104030402 | 
 **Wetlands Trail Counter** | 100130911 | May 5, 2016
 Peds Eastbound   | 101130911 |
 Peds Westbound   | 102130911 |
