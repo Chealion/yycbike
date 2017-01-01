@@ -34,10 +34,15 @@ Thanks to the City of Calgary and the team working on the project for making thi
 
 ## Tweet Information
 
-Two tweets are sent out each day:
+Four tweets are sent out each day:
 
-1 - Top 3 counters of the Pilot (5th St., 12th Ave, 8/9th Ave), Peace Bridge, and 7th Street counters. Pathway and 10th St counters are not included.  
-2 - A "summary" tweet of the Pilot (5th St., 12th Ave, and 8/9th Ave), Peace Bridge and 7th Street counters. For routes with multiple counters (8th, 5th, 12th) the median is posted. Pathway and 10th St counters are not included - both to keep historic totals comparable, and to focus on the pilot with existing counters.
+1 - A total and the top 3 counters of on street counters.
+2 - A total and the top 3 counters of pathway counters.
+3 - A more detailed tweet of on street counters with the middle counters for routes with multiple counters.
+4 - A more detailed tweet of pathway counters less likely to be in the Top 3
+
+On street counters: 5th St Sw, 7th St Sw, 8 Ave, 9 Ave, 10 St, 12 Ave
+Pathway counters: Peace Bridge, Riverwalk, Nose Creek at Bow River, Lindsay Park, N Glennore Park, SE Glenmore Park, Nose Hill, Memorial Drive E of Prince's Island, Memorial Drive at 19th St NW, Memorial Drive at 29th St NW
 
 The total value is best used as a comparison to itself over the course of time.
 
