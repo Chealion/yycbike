@@ -55,10 +55,10 @@ EIGHTH_8={'installation':"8th and 8th", 'value':0, 'url':"http://www.eco-public.
 EIGHTH_3={'installation':"3rd and 8th", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/100030768/"}
 
 RIVERWALK={'value':0, 'installation':'Riverwalk', 'url':"null"}
-RIVERWALK_PED_EB={'installation':"yycwalk.riverwalk", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102128044/"}
-RIVERWALK_PED_WB={'installation':"yycwalk.riverwalk", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101128044/"}
-RIVERWALK_EB={'installation':"riverwalk.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/104128044/"}
-RIVERWALK_WB={'installation':"riverwalk.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103128044/"}
+RIVERWALK_PED_EB={'installation':"yycwalk.riverwalk", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102138343/"}
+RIVERWALK_PED_WB={'installation':"yycwalk.riverwalk", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101138343/"}
+RIVERWALK_EB={'installation':"riverwalk.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/104138343/"}
+RIVERWALK_WB={'installation':"riverwalk.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103138343/"}
 
 NOSECREEK_BOW={'value':0, 'installation':'Nose Creek', 'url':"null"}
 NOSECREEK_BOW_PED_NB={'installation':"yycwalk.nosebow", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102128045/"}
@@ -86,7 +86,7 @@ LINDSAY_SB={'installation':"lindsay.bike", 'value':0, 'url':"http://www.eco-publ
 
 TENTH={'installation':"10th St", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/100020661/"}
 
-SBOW_10={'value':0, 'installation':'SBR near 11th St', 'url':"null"}
+SBOW_10={'value':0, 'installation':'SBR @ 11 St', 'url':"null"}
 SBOW_10_PED_EB={'installation':"yycwalk.sbowten", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102030402/"}
 SBOW_10_PED_WB={'installation':"yycwalk.sbowten", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101030402/"}
 SBOW_10_EB={'installation':"sbowten.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/104030402/"}
@@ -106,7 +106,7 @@ PARKDALE_PED_WB={'installation':"yycwalk.parkdale", 'value':0, 'url':"http://www
 PARKDALE_EB={'installation':"parkdale.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103134305/"}
 PARKDALE_WB={'installation':"parkdale.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103134305/"}
 
-NGLENMORE={'value':0, 'installation':'North Glenmore Park', 'url':"null"}
+NGLENMORE={'value':0, 'installation':'N Glenmore Park', 'url':"null"}
 NGLENMORE_PED_EB={'installation':"yycwalk.nglenmore", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101134306/"}
 NGLENMORE_PED_WB={'installation':"yycwalk.nglenmore", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102134306/"}
 NGLENMORE_EB={'installation':"nglenmore.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103134306/"}
@@ -118,12 +118,18 @@ SGLENMORE_PED_SB={'installation':"yycwalk.sglenmore", 'value':0, 'url':"http://w
 SGLENMORE_NB={'installation':"sglenmore.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103134304/"}
 SGLENMORE_SB={'installation':"sglenmore.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103134304/"}
 
+INGLEWOOD_BS={'value':0, 'installation':'Bird Sanctuary', 'url':"null"}
+INGLEWOOD_BS_PED_NB={'installation':"yycwalk.inglewoodbs", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101138344/"}
+INGLEWOOD_BS_PED_SB={'installation':"yycwalk.inglewoodbs", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102138344/"}
+INGLEWOOD_BS_NB={'installation':"inglewoodbs.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103138344/"}
+INGLEWOOD_BS_SB={'installation':"inglewoodbs.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103138344/"}
+
 streetTotal = 0
 pathwayTotal = 0
 errorFound = False
 
 # Load Data into Dictionaries
-for i in [ PB_NB, PB_SB, SEVENTH, STEPHEN_BIKE, FIFTH_5, FIFTH_10, FIFTH_15, TWELFTH_8, TWELFTH_2, TWELFTH_3, NINTH_4, EIGHTH_8, EIGHTH_3, RIVERWALK_EB, RIVERWALK_WB, NOSECREEK_BOW_NB, NOSECREEK_BOW_SB, MEMORIAL_PRINCE_EB, MEMORIAL_PRINCE_WB, MEMORIAL_19_EB, MEMORIAL_19_WB, LINDSAY_NB, LINDSAY_SB, TENTH, SBOW_10_EB, SBOW_10_WB, EDM_TR, NOSE_HILL_SB, NOSE_HILL_NB, PARKDALE_EB, PARKDALE_WB, NGLENMORE_EB, NGLENMORE_WB, SGLENMORE_NB, SGLENMORE_SB ]:
+for i in [ PB_NB, PB_SB, SEVENTH, STEPHEN_BIKE, FIFTH_5, FIFTH_10, FIFTH_15, TWELFTH_8, TWELFTH_2, TWELFTH_3, NINTH_4, EIGHTH_8, EIGHTH_3, RIVERWALK_EB, RIVERWALK_WB, NOSECREEK_BOW_NB, NOSECREEK_BOW_SB, MEMORIAL_PRINCE_EB, MEMORIAL_PRINCE_WB, MEMORIAL_19_EB, MEMORIAL_19_WB, LINDSAY_NB, LINDSAY_SB, TENTH, SBOW_10_EB, SBOW_10_WB, EDM_TR, NOSE_HILL_SB, NOSE_HILL_NB, PARKDALE_EB, PARKDALE_WB, NGLENMORE_EB, NGLENMORE_WB, SGLENMORE_NB, SGLENMORE_SB, INGLEWOOD_BS_NB, INGLEWOOD_BS_SB ]:
     url=i['url'] + "?begin=" + yesterday + "&end=" + yesterday + "&step=4"
     amount = 0
     try:
@@ -166,6 +172,7 @@ NOSE_HILL['value'] = NOSE_HILL_NB['value'] + NOSE_HILL_SB['value']
 PARKDALE['value'] = PARKDALE_WB['value'] + PARKDALE_EB['value']
 NGLENMORE['value'] = NGLENMORE_WB['value'] + NGLENMORE_EB['value']
 SGLENMORE['value'] = SGLENMORE_NB['value'] + SGLENMORE_SB['value']
+INGLEWOOD_BS['value'] = INGLEWOOD_NB['value'] + INGLEWOOD_SB['value']
 
 # Create list and sort for top 3, street and pathway.
 
@@ -178,7 +185,7 @@ for i in [ STEPHEN_BIKE, SEVENTH, FIFTH_5, FIFTH_10, FIFTH_15, TWELFTH_8, TWELFT
 sortedStreetList = sorted(listOfStreetCounters, key=lambda k: k['value'], reverse=True)
 
 listOfPathwayCounters = []
-for i in [ PB, RIVERWALK, NOSECREEK_BOW, MEMORIAL_PRINCE, MEMORIAL_19, LINDSAY, SBOW_10, NOSE_HILL, PARKDALE, NGLENMORE, SGLENMORE ]:
+for i in [ PB, RIVERWALK, NOSECREEK_BOW, MEMORIAL_PRINCE, MEMORIAL_19, LINDSAY, SBOW_10, NOSE_HILL, PARKDALE, NGLENMORE, SGLENMORE, INGLEWOOD_BS ]:
     listOfPathwayCounters.append(i)
     print "%s: %d" % (i['installation'], i['value'])
     pathwayTotal += i['value']
@@ -207,13 +214,13 @@ for i in sortedPathwayList:
 # Send Tweets
 
 if errorFound:
-    flag = '*Some Data Missing'
+    flag = '*Incomplete Data'
 else:
     flag = ''
 
 ## On Street Count with Top 3
 try:
-    count_status="%d #yycbike trips were counted on street on %s.\n\nBusiest:\n%s%s" % ( streetTotal, fancyDate, top3StreetString, flag)
+    count_status="%d #yycbike trips were counted on street on %s\n\nBusiest:\n%s%s" % ( streetTotal, fancyDate, top3StreetString, flag)
     print count_status
     t.statuses.update(
 	status=count_status)
@@ -222,7 +229,9 @@ except:
 
 ## Pathway Count with Top 3
 try:
-    count_status="%d #yycbike trips were counted on pathways on %s.\n\nBusiest:\n%s%s" % ( pathwayTotal, fancyDate, top3PathwayString, flag)
+    count_status="%d #yycbike trips were counted on MUPs on %s\n\nBusiest:\n%s%s" % ( pathwayTotal, fancyDate, top3PathwayString, flag)
+    if len(count_status) > 140:
+	count_status="%d #yycbike trips were counted on MUPs on %s\n\nBusiest:\n%s\n**" % ( pathwayTotal, fancyDate, top3PathwayString)
     print count_status
     t.statuses.update(
 	status=count_status)

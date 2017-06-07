@@ -14,7 +14,7 @@ The data is collected from the following sources:
     * 12th Ave. - [West Leg](http://www.eco-public.com/public2/?id=100022581), [Central Memorial](http://www.eco-public.com/public2/?id=100022580), [East Leg](http://www.eco-public.com/public2/?id=100022582)
     * 8th Ave. - [West Leg](http://www.eco-public.com/public2/?id=100031441), [Centre](http://www.eco-public.com/public2/?id=100030768)
     * 9th Ave. - [NMC](http://www.eco-public.com/public2/?id=100030452)
-    * [Riverwalk](http://www.eco-public.com/public2/?id=100128044)
+    * [Riverwalk](http://www.eco-public.com/public2/?id=100138343)
     * [Nose Creek at Bow River](http://www.eco-public.com/public2/?id=100128045)
     * [Memorial Drive at Prince's Island](http://www.eco-public.com/public2/?id=100128046)
     * [Memorial Drive at 19th St. NW](http://www.eco-public.com/public2/?id=100128047)
@@ -27,6 +27,7 @@ The data is collected from the following sources:
     * [Parkdale](http://www.eco-public.com/public2/?id=100134305)
     * [North Glenmore](http://www.eco-public.com/public2/?id=100134306)
     * [South Glenmore](http://www.eco-public.com/public2/?id=100134304)
+    * [Inglewood Bird Sanctuary](http://www.eco-public.com/public2/?id=100138344)
 
 ## Thank You
 
@@ -112,11 +113,11 @@ Westbound        | 102030768 |
 **9th Ave** | 100030452 | June 17, 2015
 Eastbound        | 101030452 |
 Westbound        | 102030452 |
-**Riverwalk**  | 100128044 | October 15, 2015
-Peds Eastbound   | 102128044 | 
-Peds Westbound   | 101128044 | 
-Bikes Eastbound  | 104128044 | 
-Bikes Westbound  | 103128044 | 
+**Riverwalk**  | 100138343 | October 15, 2015
+Peds Eastbound   | 102138343 |
+Peds Westbound   | 101138343 |
+Bikes Eastbound  | 104138343 |
+Bikes Westbound  | 103138343 |
 **Nose Creek at Bow River**  | 100128045 | October 16, 2015
 Peds Northbound   | 102128045 | 
 Peds Southbound   | 101128045 | 
@@ -173,6 +174,11 @@ Peds Northbound   | 101134304 |
 Peds Southbound   | 102134304 |
 Bikes Northbound  | 103134304 |
 Bikes Southbound  | 104134304 |
+**Inglewood Bird Sanctuary** | 100138344 | May 19, 2017
+Peds Northbound   | 101138344 |
+Peds Southbound   | 102138344 |
+Bikes Northbound  | 103138344 |
+Bikes Southbound  | 104138344 |
 **2015 Totals** | 100023678 | January 1, 2015 
 
 Totems:  
@@ -180,7 +186,7 @@ Totems:
 **8th Ave at 3rd St.**: 100030761  
 **12th Ave at 8th St.**: 100128055
 
-There were also some other presentation or counters that have been retired in favour of news ones.
+There were also some other presentation or counters that have been retired in favour of new ones.
 
 Installation Name |     ID    | Notes
 ------------------|-----------|------------
@@ -192,6 +198,7 @@ Installation Name |     ID    | Notes
 **9th Ave**       | 100023675 | Original portable counter for 9th Ave.
 **8th Ave**       | 100024406 | 8th Ave and 3rd St. Changed in late April 2016.
 **8th Ave Display** | 100128054 | 
+**Riverwalk**  | 100128044 | Original counter until totem installed.
 
 ## File Listing
 
