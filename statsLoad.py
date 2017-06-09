@@ -109,7 +109,7 @@ NOSE_HILL_NB={'installation':"nosehill.bike", 'direction':"northbound", 'url':"h
 PARKDALE_PED_EB={'installation':"yycwalk.parkdale", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101134305/"}
 PARKDALE_PED_WB={'installation':"yycwalk.parkdale", 'direction':"westbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102134305/"}
 PARKDALE_EB={'installation':"parkdale.bike", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103134305/"}
-PARKDALE_WB={'installation':"parkdale.bike", 'direction':"westbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103134305/"}
+PARKDALE_WB={'installation':"parkdale.bike", 'direction':"westbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/104134305/"}
 
 NGLENMORE_PED_EB={'installation':"yycwalk.nglenmore", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101134306/"}
 NGLENMORE_PED_WB={'installation':"yycwalk.nglenmore", 'direction':"westbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102134306/"}
