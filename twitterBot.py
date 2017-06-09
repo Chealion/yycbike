@@ -104,7 +104,7 @@ PARKDALE={'value':0, 'installation':'NBR @ 29 St', 'url':"null"}
 PARKDALE_PED_EB={'installation':"yycwalk.parkdale", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101134305/"}
 PARKDALE_PED_WB={'installation':"yycwalk.parkdale", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102134305/"}
 PARKDALE_EB={'installation':"parkdale.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103134305/"}
-PARKDALE_WB={'installation':"parkdale.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103134305/"}
+PARKDALE_WB={'installation':"parkdale.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/104134305/"}
 
 NGLENMORE={'value':0, 'installation':'N Glenmore Park', 'url':"null"}
 NGLENMORE_PED_EB={'installation':"yycwalk.nglenmore", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101134306/"}
@@ -172,7 +172,7 @@ NOSE_HILL['value'] = NOSE_HILL_NB['value'] + NOSE_HILL_SB['value']
 PARKDALE['value'] = PARKDALE_WB['value'] + PARKDALE_EB['value']
 NGLENMORE['value'] = NGLENMORE_WB['value'] + NGLENMORE_EB['value']
 SGLENMORE['value'] = SGLENMORE_NB['value'] + SGLENMORE_SB['value']
-INGLEWOOD_BS['value'] = INGLEWOOD_NB['value'] + INGLEWOOD_SB['value']
+INGLEWOOD_BS['value'] = INGLEWOOD_BS_NB['value'] + INGLEWOOD_BS_SB['value']
 
 # Create list and sort for top 3, street and pathway.
 
