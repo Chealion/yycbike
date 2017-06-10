@@ -98,7 +98,7 @@ NOSE_HILL={'value':0, 'installation':'Nose Hill', 'url':"null"}
 NOSE_HILL_PED_SB={'installation':"yycwalk.nosehill", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101134303/"}
 NOSE_HILL_PED_NB={'installation':"yycwalk.nosehill", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102134303/"}
 NOSE_HILL_SB={'installation':"nosehill.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103134303/"}
-NOSE_HILL_NB={'installation':"nosehill.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103134303/"}
+NOSE_HILL_NB={'installation':"nosehill.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/104134303/"}
 
 PARKDALE={'value':0, 'installation':'NBR @ 29 St', 'url':"null"}
 PARKDALE_PED_EB={'installation':"yycwalk.parkdale", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101134305/"}
@@ -110,19 +110,19 @@ NGLENMORE={'value':0, 'installation':'N Glenmore Park', 'url':"null"}
 NGLENMORE_PED_EB={'installation':"yycwalk.nglenmore", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101134306/"}
 NGLENMORE_PED_WB={'installation':"yycwalk.nglenmore", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102134306/"}
 NGLENMORE_EB={'installation':"nglenmore.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103134306/"}
-NGLENMORE_WB={'installation':"nglenmore.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103134306/"}
+NGLENMORE_WB={'installation':"nglenmore.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/104134306/"}
 
 SGLENMORE={'value':0, 'installation':'Glenmore Resv', 'url':"null"}
 SGLENMORE_PED_NB={'installation':"yycwalk.sglenmore", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101134304/"}
 SGLENMORE_PED_SB={'installation':"yycwalk.sglenmore", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102134304/"}
 SGLENMORE_NB={'installation':"sglenmore.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103134304/"}
-SGLENMORE_SB={'installation':"sglenmore.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103134304/"}
+SGLENMORE_SB={'installation':"sglenmore.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/104134304/"}
 
 INGLEWOOD_BS={'value':0, 'installation':'Bird Sanctuary', 'url':"null"}
 INGLEWOOD_BS_PED_NB={'installation':"yycwalk.inglewoodbs", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101138344/"}
 INGLEWOOD_BS_PED_SB={'installation':"yycwalk.inglewoodbs", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102138344/"}
 INGLEWOOD_BS_NB={'installation':"inglewoodbs.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103138344/"}
-INGLEWOOD_BS_SB={'installation':"inglewoodbs.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103138344/"}
+INGLEWOOD_BS_SB={'installation':"inglewoodbs.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/104138344/"}
 
 streetTotal = 0
 pathwayTotal = 0

@@ -104,7 +104,7 @@ EDM_SB={'installation':"edmtr", 'direction':"southbound", 'url':"http://www.eco-
 NOSE_HILL_PED_SB={'installation':"yycwalk.nosehill", 'direction':"southbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101134303/"}
 NOSE_HILL_PED_NB={'installation':"yycwalk.nosehill", 'direction':"northbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102134303/"}
 NOSE_HILL_SB={'installation':"nosehill.bike", 'direction':"southbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103134303/"}
-NOSE_HILL_NB={'installation':"nosehill.bike", 'direction':"northbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103134303/"}
+NOSE_HILL_NB={'installation':"nosehill.bike", 'direction':"northbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/104134303/"}
 
 PARKDALE_PED_EB={'installation':"yycwalk.parkdale", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101134305/"}
 PARKDALE_PED_WB={'installation':"yycwalk.parkdale", 'direction':"westbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102134305/"}
@@ -114,17 +114,17 @@ PARKDALE_WB={'installation':"parkdale.bike", 'direction':"westbound", 'url':"htt
 NGLENMORE_PED_EB={'installation':"yycwalk.nglenmore", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101134306/"}
 NGLENMORE_PED_WB={'installation':"yycwalk.nglenmore", 'direction':"westbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102134306/"}
 NGLENMORE_EB={'installation':"nglenmore.bike", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103134306/"}
-NGLENMORE_WB={'installation':"nglenmore.bike", 'direction':"westbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103134306/"}
+NGLENMORE_WB={'installation':"nglenmore.bike", 'direction':"westbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/104134306/"}
 
 SGLENMORE_PED_NB={'installation':"yycwalk.sglenmore", 'direction':"northbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101134304/"}
 SGLENMORE_PED_SB={'installation':"yycwalk.sglenmore", 'direction':"southbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102134304/"}
 SGLENMORE_NB={'installation':"sglenmore.bike", 'direction':"northbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103134304/"}
-SGLENMORE_SB={'installation':"sglenmore.bike", 'direction':"southbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103134304/"}
+SGLENMORE_SB={'installation':"sglenmore.bike", 'direction':"southbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/104134304/"}
 
 INGLEWOOD_BS_PED_NB={'installation':"yycwalk.inglewoodbs", 'direction':"northbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101138344/"}
 INGLEWOOD_BS_PED_SB={'installation':"yycwalk.inglewoodbs", 'direction':"southbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102138344/"}
 INGLEWOOD_BS_NB={'installation':"inglewoodbs.bike", 'direction':"northbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103138344/"}
-INGLEWOOD_BS_SB={'installation':"inglewoodbs.bike", 'direction':"southbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103138344/"}
+INGLEWOOD_BS_SB={'installation':"inglewoodbs.bike", 'direction':"southbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/104138344/"}
 
 for i in [ PB_NB, PB_SB, PB_PED_NB, PB_PED_SB, SEVEN_NB, SEVEN_SB, STEPHEN_PED, STEPHEN_CAR, STEPHEN_BIKE, FIFTH_5_NB, FIFTH_5_SB, FIFTH_10_NB, FIFTH_10_SB, FIFTH_15_NB, FIFTH_15_SB, TWELFTH_8_EB, TWELFTH_8_WB, TWELFTH_2_EB, TWELFTH_2_WB, TWELFTH_3_EB, TWELFTH_3_WB, NINTH_4_EB, NINTH_4_WB, EIGHTH_8_EB, EIGHTH_8_WB, EIGHTH_3_EB, EIGHTH_3_WB, RIVERWALK_PED_EB, RIVERWALK_PED_WB, RIVERWALK_EB, RIVERWALK_WB, NOSECREEK_BOW_PED_NB, NOSECREEK_BOW_PED_SB, NOSECREEK_BOW_NB, NOSECREEK_BOW_SB, MEMORIAL_PRINCE_PED_EB, MEMORIAL_PRINCE_PED_WB, MEMORIAL_PRINCE_EB, MEMORIAL_PRINCE_WB, MEMORIAL_19_PED_EB, MEMORIAL_19_PED_WB, MEMORIAL_19_EB, MEMORIAL_19_WB, LINDSAY_PED_NB, LINDSAY_PED_SB, LINDSAY_NB, LINDSAY_SB, TENTH_NB, TENTH_SB, SBOW_10_PED_EB, SBOW_10_PED_WB, SBOW_10_EB, SBOW_10_WB, EDM_NB, EDM_SB, NOSE_HILL_PED_NB, NOSE_HILL_PED_SB, NOSE_HILL_NB, NOSE_HILL_SB, PARKDALE_PED_EB, PARKDALE_PED_WB, PARKDALE_EB, PARKDALE_WB, NGLENMORE_PED_EB, NGLENMORE_PED_WB, NGLENMORE_EB, NGLENMORE_WB, SGLENMORE_PED_NB, SGLENMORE_PED_SB, SGLENMORE_NB, SGLENMORE_SB, INGLEWOOD_BS_PED_NB, INGLEWOOD_BS_PED_SB, INGLEWOOD_BS_NB, INGLEWOOD_BS_SB ]:
     # Specify yesterday to download
