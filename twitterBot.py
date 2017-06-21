@@ -55,10 +55,10 @@ EIGHTH_8={'installation':"8th and 8th", 'value':0, 'url':"http://www.eco-public.
 EIGHTH_3={'installation':"3rd and 8th", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/100030768/"}
 
 RIVERWALK={'value':0, 'installation':'Riverwalk', 'url':"null"}
-RIVERWALK_PED_EB={'installation':"yycwalk.riverwalk", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102138343/"}
-RIVERWALK_PED_WB={'installation':"yycwalk.riverwalk", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101138343/"}
-RIVERWALK_EB={'installation':"riverwalk.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/104138343/"}
-RIVERWALK_WB={'installation':"riverwalk.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103138343/"}
+RIVERWALK_PED_EB={'installation':"yycwalk.riverwalk", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102138638/"}
+RIVERWALK_PED_WB={'installation':"yycwalk.riverwalk", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101138638/"}
+RIVERWALK_EB={'installation':"riverwalk.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/104138638/"}
+RIVERWALK_WB={'installation':"riverwalk.bike", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103138638/"}
 
 NOSECREEK_BOW={'value':0, 'installation':'Nose Creek', 'url':"null"}
 NOSECREEK_BOW_PED_NB={'installation':"yycwalk.nosebow", 'value':0, 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102128045/"}

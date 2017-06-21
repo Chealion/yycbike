@@ -60,10 +60,10 @@ EIGHTH_8_WB={'installation':"eighth.eighthsw", 'direction':"westbound", 'url':"h
 EIGHTH_3_EB={'installation':"eighth.thirdsw", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101030768/"}
 EIGHTH_3_WB={'installation':"eighth.thirdsw", 'direction':"westbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102030768/"}
 
-RIVERWALK_PED_EB={'installation':"yycwalk.riverwalk", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102138343/"}
-RIVERWALK_PED_WB={'installation':"yycwalk.riverwalk", 'direction':"westbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101138343/"}
-RIVERWALK_EB={'installation':"riverwalk.bike", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/104138343/"}
-RIVERWALK_WB={'installation':"riverwalk.bike", 'direction':"westbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103138343/"}
+RIVERWALK_PED_EB={'installation':"yycwalk.riverwalk", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102138638/"}
+RIVERWALK_PED_WB={'installation':"yycwalk.riverwalk", 'direction':"westbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101138638/"}
+RIVERWALK_EB={'installation':"riverwalk.bike", 'direction':"eastbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/104138638/"}
+RIVERWALK_WB={'installation':"riverwalk.bike", 'direction':"westbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/103138638/"}
 
 NOSECREEK_BOW_PED_NB={'installation':"yycwalk.nosebow", 'direction':"northbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/102128045/"}
 NOSECREEK_BOW_PED_SB={'installation':"yycwalk.nosebow", 'direction':"westbound", 'url':"http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/101128045/"}
@@ -130,6 +130,7 @@ for i in [ PB_NB, PB_SB, PB_PED_NB, PB_PED_SB, SEVEN_NB, SEVEN_SB, STEPHEN_PED, 
     # Specify yesterday to download
     url=i['url'] + "?begin=" + yesterday + "&end=" + yesterday + "&step=2"
     dailyurl=i['url'] + "?begin=" + yesterday + "&end=" + yesterday + "&step=4"
+    print dailyurl
     print 'Loading ' + i['installation'] + ' ' + i['direction'] + '...'
     # 15 minute counts
     try:
@@ -146,7 +147,10 @@ for i in [ PB_NB, PB_SB, PB_PED_NB, PB_PED_SB, SEVEN_NB, SEVEN_SB, STEPHEN_PED, 
         graphitesend.send(i['installation'] + '.' + i['direction'] + '.trips', datapoint['comptage'], datapoint['timestamp']/1000)
 	
     # Daily counts
-    response = urllib2.urlopen(dailyurl)
+    try:
+        response = urllib2.urlopen(dailyurl)
+    except:
+        pass
     json_data = response.read()
     datapoints = json.loads(json_data)
     for datapoint in datapoints:

@@ -14,7 +14,7 @@ The data is collected from the following sources:
     * 12th Ave. - [West Leg](http://www.eco-public.com/public2/?id=100022581), [Central Memorial](http://www.eco-public.com/public2/?id=100022580), [East Leg](http://www.eco-public.com/public2/?id=100022582)
     * 8th Ave. - [West Leg](http://www.eco-public.com/public2/?id=100031441), [Centre](http://www.eco-public.com/public2/?id=100030768)
     * 9th Ave. - [NMC](http://www.eco-public.com/public2/?id=100030452)
-    * [Riverwalk](http://www.eco-public.com/public2/?id=100138343)
+    * [Riverwalk](http://www.eco-public.com/public2/?id=100138638)
     * [Nose Creek at Bow River](http://www.eco-public.com/public2/?id=100128045)
     * [Memorial Drive at Prince's Island](http://www.eco-public.com/public2/?id=100128046)
     * [Memorial Drive at 19th St. NW](http://www.eco-public.com/public2/?id=100128047)
@@ -113,11 +113,11 @@ Westbound        | 102030768 |
 **9th Ave** | 100030452 | June 17, 2015
 Eastbound        | 101030452 |
 Westbound        | 102030452 |
-**Riverwalk**  | 100138343 | October 15, 2015
-Peds Eastbound   | 102138343 |
-Peds Westbound   | 101138343 |
-Bikes Eastbound  | 104138343 |
-Bikes Westbound  | 103138343 |
+**Riverwalk**  | 100138638 | October 15, 2015
+Peds Eastbound   | 102138638 |
+Peds Westbound   | 101138638 |
+Bikes Eastbound  | 104138638 |
+Bikes Westbound  | 103138638 |
 **Nose Creek at Bow River**  | 100128045 | October 16, 2015
 Peds Northbound   | 102128045 | 
 Peds Southbound   | 101128045 | 
