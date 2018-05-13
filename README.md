@@ -67,7 +67,8 @@ API Breakdown:
     Public Page Details:
     http://www.eco-public.com/api/cw6Xk4jW4X4R/public/page/[ID]
 
-The step ID can be 2 (daily), 3 (hourly), or 4 (15 minute).
+The step number can be 2 (15 minute), 3 (hourly), 4 (daily), 5 (weekly),
+6 (monthly) or 7 (yearly).
 
 Installation Name |     ID    | Start Date
 ------------------|-----------|------------
