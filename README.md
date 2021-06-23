@@ -61,14 +61,12 @@ Eco-Counter has a private API that can be figured out by reading the AJAX reques
 API Breakdown:
 
     Individual Data Sets:
-    http://www.eco-public.com/api/cw6Xk4jW4X4R/data/periode/[ID]/?begin=YYYYMMDD&endYYYYMMDD&step=[NUMBER]
-    Data Set Names for Installation:
-    http://www.eco-public.com/api/cw6Xk4jW4X4R/counter/channels/[ID]
-    Public Page Details:
-    http://www.eco-public.com/api/cw6Xk4jW4X4R/public/page/[ID]
+    https://www.eco-visio.net/api/aladdin/1.0.0/pbl/publicwebpage//data/[ID]?begin=YYYYMMDD&end=YYYYMMDD&step=[NUMBER]&domain=[CITY]&t=[TOKEN]&withNull=true
+    Data Set Names for Installation and the Public Page Details:
+    https://www.eco-visio.net/api/aladdin/1.0.0/pbl/publicwebpage/[ID]?withNull=true
 
-The step number can be 2 (15 minute), 3 (hourly), 4 (daily), 5 (weekly),
-6 (monthly) or 7 (yearly).
+The step number can be 1 (15 minute), 2 (30 minute), 3 (hourly), 4 (daily), 5 (weekly),
+6 (monthly) or 7 (annual).
 
 Installation Name |     ID    | Start Date
 ------------------|-----------|------------
