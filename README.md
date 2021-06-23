@@ -56,14 +56,18 @@ Environment Canada's data is available as hourly readings (a month's worth), or 
     Daily Data:
     http://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=50430&Prov=AB&dlyRange=2012-07-09&7C2016-06-07&Year=2016&Month=06&Day=07&submit=Download+Data&timeframe=2
 
-Eco-Counter has a private API that can be figured out by reading the AJAX requests performed on each of the counter pages. The data in question is owned by the City of Calgary. The counts are posted once a day normally between 5:00 and 6:00 AM MST, so the counts are **not** live.
+Eco-Counter has an API and is documented at https://developers.eco-counter.com/
+The data in question is owned by the City of Calgary. The counts are posted once a day normally between 5:00 and 6:00 AM MST, so the counts are **not** live.
 
-API Breakdown:
+Website API Breakdown:
 
     Individual Data Sets:
     https://www.eco-visio.net/api/aladdin/1.0.0/pbl/publicwebpage//data/[ID]?begin=YYYYMMDD&end=YYYYMMDD&step=[NUMBER]&domain=[CITY]&t=[TOKEN]&withNull=true
     Data Set Names for Installation and the Public Page Details:
-    https://www.eco-visio.net/api/aladdin/1.0.0/pbl/publicwebpage/[ID]?withNull=true
+    https://www.eco-visio.net/api/aladdin/1.0.0/pbl/publicwebpage/[Installation_ID]?withNull=true
+
+The installation details call provides a valid token that can be used for the
+individual data sets.
 
 The step number can be 1 (15 minute), 2 (30 minute), 3 (hourly), 4 (daily), 5 (weekly),
 6 (monthly) or 7 (annual).
