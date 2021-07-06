@@ -35,18 +35,19 @@ Thanks to the City of Calgary and the team working on the project for making thi
 
 ## Tweet Information
 
-Four tweets are sent out each day:
+Two tweets are sent out each day:
 
-1 - A total and the top 3 counters of on street counters.
-2 - A total and the top 3 counters of pathway counters.
-3 - A more detailed tweet of on street counters with the middle counters for routes with multiple counters.
-4 - A more detailed tweet of pathway counters less likely to be in the Top 3
+1 - A total and the top 3 counters of on street counters.  
+2 - A total and the top 3 counters of pathway counters.  
 
-On street counters: 5th St Sw, 7th St Sw, 8 Ave, 9 Ave, 10 St, 12 Ave
-Pathway counters: Peace Bridge, Riverwalk, Nose Creek at Bow River, Lindsay Park, N Glennore Park, SE Glenmore Park, Nose Hill, Memorial Drive E of Prince's Island, Memorial Drive at 19th St NW, Memorial Drive at 29th St NW
+On street counters: 5th St SW, 7th St SW, 8 Ave SW, 9 Ave SE, 10 St NW, 12 Ave 
+Pathway counters: Peace Bridge, Riverwalk, Nose Creek at Bow River, Lindsay Park, N Glennore Park, SE Glenmore Park, Nose Hill, Memorial Drive E of Prince's Island, Memorial Drive at 19th St NW, Memorial Drive at 29th St NW  
 
 The total value is best used as a comparison to itself over the course of time.
 
+## How does it run?
+
+The script nows runs via GitHub Actions. If you want to run your own, you can use the workflow in the .github folder and note you will need to make 4 secrets corresponding to the Twitter credentials.
 ## Source Data Notes
 
 Environment Canada's data is available as hourly readings (a month's worth), or as daily readings (a year's worth). I use Station 50430 (the Airport)
