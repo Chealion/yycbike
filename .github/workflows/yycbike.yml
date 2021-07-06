@@ -1,0 +1,31 @@
+name: yycbike_count_twitter
+
+on:
+    workflow_dispatch:
+    
+    schedule:
+      - cron: "13 14 * * *" #runs at 14:13 UTC everyday - 8:13 MDT, 7:13 MST
+
+jobs:
+  yycbike:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          # act wants a specific version while GitHub is happy with 3.x
+          python-version: '3.9.6'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Run the script
+        run: |
+          python test.py
+        env:
+          TWITTER_TOKEN: ${{ secrets.TWITTER_TOKEN }}
+          TWITTER_TOKEN_KEY: ${{ secrets.TWITTER_TOKEN_KEY }} 
+          TWITTER_CON_SECRET: ${{ secrets.TWITTER_CON_SECRET }}
+          TWITTER_CON_SECRET_KEY: ${{ secrets.TWITTER_CON_SECRET_KEY }}
