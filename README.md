@@ -62,6 +62,8 @@ The data in question is owned by the City of Calgary. The counts are posted once
 Website API Breakdown:
 
     Individual Data Sets:
+    https://www.eco-visio.net/api/aladdin/1.0.0/pbl/publicwebpageplus/data/[ID]?idOrganisme=[CITY]&idPdc=[ID]&fin=DD/MM/YYY&debut=DD/MM/YYYY&interval=[NUMBER]&flowIds=[COMPONENT_ID,COMPONENT_ID,COMPONENT_ID]
+    Alternative from dedicated pages:
     https://www.eco-visio.net/api/aladdin/1.0.0/pbl/publicwebpage//data/[ID]?begin=YYYYMMDD&end=YYYYMMDD&step=[NUMBER]&domain=[CITY]&t=[TOKEN]&withNull=true
     Data Set Names for Installation and the Public Page Details:
     https://www.eco-visio.net/api/aladdin/1.0.0/pbl/publicwebpage/[Installation_ID]?withNull=true
@@ -113,7 +115,7 @@ Bikes Westbound | 101031441 |
 **8th Avenue Centre** | 100030768 | July 9, 2015
 Eastbound        | 101030768 | 
 Westbound        | 102030768 | 
-**9th Ave** | 100030452 | June 17, 2015
+**9th Ave** | 100030452 | June 17, 2015 - changed to 100059438
 Eastbound        | 101030452 |
 Westbound        | 102030452 |
 **Riverwalk**  | 100138638 | October 15, 2015
@@ -157,16 +159,11 @@ Bikes Westbound  | 104130911 |
 **Edmonton Trail Cycle Track** | 100033550 | Sept. 7, 2016
 Northbound | 102033550 |
 Southbound | 101033550 |
-**Nose Hill Park** | 100134303 | October 17, 2016
-Peds Southbound   | 101134303 |
-Peds Northbound   | 102134303 |
-Bikes Southbound  | 103134303 |
-Bikes Northbound  | 104134303 |
-**Parkdale Bow River Pathway** | 100134305 | October 13, 2016
-Peds Eastbound   | 101134305 |
-Peds Westbound   | 102134305 |
-Bikes Eastbound  | 103134305 |
-Bikes Westbound  | 104134305 |
+**Parkdale Bow River Pathway** | 100153497 | October 13, 2016
+Peds Eastbound   | 101153497 |
+Peds Westbound   | 102153497|
+Bikes Eastbound  | 103153497 |
+Bikes Westbound  | 104153497 |
 **North Glenmore** | 100134306 | October 13, 2016
 Peds Eastbound   | 101134306 |
 Peds Westbound   | 102134306 |
@@ -202,22 +199,23 @@ Installation Name |     ID    | Notes
 **8th Ave**       | 100024406 | 8th Ave and 3rd St. Changed in late April 2016.
 **8th Ave Display** | 100128054 | 
 **Riverwalk**  | 100128044 | Original counter until totem installed.
+**Nose Hill Park** | 100134303 | October 17, 2016
 
 ## File Listing
-
-### monthlyArchive.py
-
-Save a monthly archive for reloading later
-
-### statsLoad.py
-
-Load the Eco Counter numbers into Graphite
 
 ### twitterBot.py
 
 The script that runs the #yycbike\_count Twitter feed. Runs once a day. Tweets a summary with the 3 busiest counters, and one with the numbers for each major route. If multiple counters are on a route - choses the midpoint/median.
 
-### weatherLoad.py
+### Archived Files
+
+This project used to also store weather and count data into Graphite. These scripts are no longer updated.
+
+### archive/statsLoad.py
+
+Load the Eco Counter numbers into Graphite
+
+### archive/weatherLoad.py
 
 Load Environemnt Canada weather data into Graphite
 
