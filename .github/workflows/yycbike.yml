@@ -23,7 +23,7 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Run the script
         run: |
-          python test.py
+          python twitterBot.py
         env:
           TWITTER_TOKEN: ${{ secrets.TWITTER_TOKEN }}
           TWITTER_TOKEN_KEY: ${{ secrets.TWITTER_TOKEN_KEY }} 
