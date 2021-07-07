@@ -274,7 +274,7 @@ for i in sortedPathwayList:
 
 ## On Street Count with Top 3
 try:
-    count_status=f"{streetTotal} #yycbike tripes were counted on street on {fancyDate}\n\nBusiest:\n{top3StreetString}"
+    count_status=f"{streetTotal} #yycbike trips were counted on street on {fancyDate}\n\nBusiest:\n{top3StreetString}"
     print(count_status)
     t.statuses.update(status=count_status)
 except:
