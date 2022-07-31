@@ -7,10 +7,10 @@ The data is collected from the following sources:
   * [Environment Canada](http://climate.weather.gc.ca)
   * Public Eco-Counter Pages for individual counters.
     * [Calgary Bike Counter Page](https://data.eco-counter.com/ParcPublic/?id=4190)
-    * [Peace Bridge - Bikes and Pedestrians](https://data.eco-counter.com/public2/?id=100018487)
+    * [Peace Bridge - Bikes and Pedestrians](https://data.eco-counter.com/public2/?id=100013817)
     * [Stephen Ave](https://data.eco-counter.com/public2/?id=100020207)
     * [7th St.](https://data.eco-counter.com/public2/?id=100017181)
-    * 5th St. - [North Leg](https://data.eco-counter.com/public2/?id=100022540), [Under the Tracks](https://data.eco-counter.com/public2/?id=100020095), [South Leg](https://data.eco-counter.com/public2/?id=100022541)
+    * 5th St. - [North Leg](https://data.eco-counter.com/public2/?id=100022540), [N of 9th](https://data.eco-counter.com/public2/?id=100059885], [Under the Tracks](https://data.eco-counter.com/public2/?id=100020095), [South Leg](https://data.eco-counter.com/public2/?id=100022541)
     * 12th Ave. - [West Leg](https://data.eco-counter.com/public2/?id=100022581), [Central Memorial](https://data.eco-counter.com/public2/?id=100022580), [East Leg](https://data.eco-counter.com/public2/?id=100022582)
     * 8th Ave. - [West Leg](https://data.eco-counter.com/public2/?id=100031441), [Centre](https://data.eco-counter.com/public2/?id=100030768)
     * 9th Ave. - [NMC](https://data.eco-counter.com/public2/?id=100030452)
@@ -28,6 +28,7 @@ The data is collected from the following sources:
     * [North Glenmore](https://data.eco-counter.com/public2/?id=100134306)
     * [South Glenmore](https://data.eco-counter.com/public2/?id=100134304)
     * [Inglewood Bird Sanctuary](https://data.eco-counter.com/public2/?id=100138344)
+    * [12th St. SE beside Zoo](https://data.eco-counter.com/public2/?id=100044714)
 
 ## Thank You
 
@@ -65,7 +66,7 @@ Website API Breakdown:
     Individual Data Sets:
     https://www.eco-visio.net/api/aladdin/1.0.0/pbl/publicwebpageplus/data/[ID]?idOrganisme=[CITY]&idPdc=[ID]&fin=DD/MM/YYY&debut=DD/MM/YYYY&interval=[NUMBER]&flowIds=[COMPONENT_ID,COMPONENT_ID,COMPONENT_ID]
     Alternative from dedicated pages:
-    https://www.eco-visio.net/api/aladdin/1.0.0/pbl/publicwebpage//data/[ID]?begin=YYYYMMDD&end=YYYYMMDD&step=[NUMBER]&domain=[CITY]&t=[TOKEN]&withNull=true
+    https://www.eco-visio.net/api/aladdin/1.0.0/pbl/publicwebpage/data/[ID]?begin=YYYYMMDD&end=YYYYMMDD&step=[NUMBER]&domain=[CITY]&t=[TOKEN]&withNull=true
     Data Set Names for Installation and the Public Page Details:
     https://www.eco-visio.net/api/aladdin/1.0.0/pbl/publicwebpage/[Installation_ID]?withNull=true
 
@@ -92,6 +93,9 @@ Southbound        | 102017181 |
 **5th Street N Leg**  | 100022540 | June 17, 2015
 Northbound        | 102022540 | *
 Southbound        | 101022540 | *
+**5th Street N of 9th** | 100059885 | June 1, 2020
+Northbound | 101059885 |
+Soundbound | 101059885 |
 **5th Street CPR** | 100020095 | June 18, 2015
 Northbound        | 101020095 |
 Southbound        | 102020095 |
@@ -181,6 +185,11 @@ Peds Southbound   | 102138344 |
 Bikes Northbound  | 103138344 |
 Bikes Southbound  | 104138344 |
 **2015 Totals** | 100023678 | January 1, 2015 
+**12th St. SE near Zoo** | 100044714 | June 12, 2019
+Peds Eastbound | 101044714 |
+Peds Westbound | 102044714 |
+Bikes Eastbound | 103044714 |
+Bikes Westbound | 104044714 |
 
 Totems:  
 **5th Street at CPR**: 100127783  

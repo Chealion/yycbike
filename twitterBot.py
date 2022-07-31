@@ -214,6 +214,13 @@ GLENMORE_LANDING = {
     'components': '103134304;104134304'
 }
 
+TWELFTH_ST_ZOO {
+    'installation':"12th St. SE near the Zoo",
+    'value': 0,
+    'id': '100044714',
+    'components': '103044714;104044714'
+}
+
 # Timezones make time math hard. Also convert the time into three formats.
 yesterday = date.today() - timedelta(1)
 today = date.today()
@@ -224,7 +231,7 @@ today = today.strftime('%d/%m/%Y')
 # For each installation
 for installation in [ PEACE_BRIDGE, SEVENTH, STEPHEN_AVE, FIFTH_5, FIFTH_10, FIFTH_15, TWELFTH_8, TWELFTH_2, TWELFTH_3,
    NINTH_4, EIGHTH_8, TENTH, EDMONTON_TRAIL, NOSE_CREEK, MEMORIAL_DR, MEMORIAL_19, LINDSAY,
-   SBR_11, PARKDALE, INGLEWOOD_SANCTUARY, NORTH_GLENMORE_PARK, GLENMORE_LANDING]:
+   SBR_11, PARKDALE, INGLEWOOD_SANCTUARY, NORTH_GLENMORE_PARK, GLENMORE_LANDING, TWELFTH_ST_ZOO]:
     print("Attempting to grab " + installation['installation'])
     try:
         installation['value'] = grabCounts(installation, yesterday, today)
@@ -247,7 +254,7 @@ for i in [ SEVENTH, STEPHEN_AVE, FIFTH_5, FIFTH_10, FIFTH_15, TWELFTH_8, TWELFTH
 sortedStreetList = sorted(listOfStreetCounters, key=lambda k: k['value'], reverse=True)
 
 listOfPathwayCounters = []
-for i in [ PEACE_BRIDGE, RIVERWALK, NOSE_CREEK, MEMORIAL_DR, MEMORIAL_19, LINDSAY, SBR_11, PARKDALE, INGLEWOOD_SANCTUARY, NORTH_GLENMORE_PARK, GLENMORE_LANDING ]:
+for i in [ PEACE_BRIDGE, RIVERWALK, NOSE_CREEK, MEMORIAL_DR, MEMORIAL_19, LINDSAY, SBR_11, PARKDALE, INGLEWOOD_SANCTUARY, NORTH_GLENMORE_PARK, GLENMORE_LANDING, TWELFTH_ST_ZOO ]:
     listOfPathwayCounters.append(i)
     pathwayTotal += i['value']
 
