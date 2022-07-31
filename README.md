@@ -30,6 +30,12 @@ The data is collected from the following sources:
     * [Inglewood Bird Sanctuary](https://data.eco-counter.com/public2/?id=100138344)
     * [12th St. SE beside Zoo](https://data.eco-counter.com/public2/?id=100044714)
 
+The City also makes this data available via their Open Data Portal in two
+datasets, with some delay:
+
+    1. [Counter Locations](https://data.calgary.ca/Transportation-Transit/Bike-and-Pedestrian-Counts-Monitoring-Locations/uwis-xpm2)
+    2. [Count Data](https://data.calgary.ca/Transportation-Transit/Bike-and-Pedestrian-Counts/pede-tz7g)
+
 ## Thank You
 
 Thanks to the City of Calgary and the team working on the project for making this data public. Thanks to those members of the public who pushed for this data to be made available. Awesome to have timely easy access to the data.
@@ -49,6 +55,7 @@ The total value is best used as a comparison to itself over the course of time.
 ## How does it run?
 
 The script nows runs via GitHub Actions. If you want to run your own, you can use the workflow in the .github folder and note you will need to make 4 secrets corresponding to the Twitter credentials.
+
 ## Source Data Notes
 
 Environment Canada's data is available as hourly readings (a month's worth), or as daily readings (a year's worth). I use Station 50430 (the Airport)
