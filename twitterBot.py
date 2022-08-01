@@ -214,7 +214,7 @@ GLENMORE_LANDING = {
     'components': '103134304;104134304'
 }
 
-TWELFTH_ST_ZOO {
+TWELFTH_ST_ZOO = {
     'installation':"12th St. SE near the Zoo",
     'value': 0,
     'id': '100044714',
