@@ -4,22 +4,31 @@ import json
 import time
 import sys
 import os
+import argparse
 from twitter import *
 from datetime import date, timedelta
 from urllib.request import urlopen
 
 # Twitter Info read from the environment
 t = Twitter(
-    auth=OAuth(os.environ.get('TWITTER_TOKEN'), 
-        os.environ.get('TWITTER_TOKEN_KEY'), 
-        os.environ.get('TWITTER_CON_SECRET'), 
+    auth=OAuth(os.environ.get('TWITTER_TOKEN'),
+        os.environ.get('TWITTER_TOKEN_KEY'),
+        os.environ.get('TWITTER_CON_SECRET'),
         os.environ.get('TWITTER_CON_SECRET_KEY'))
     )
+
+# Check if debug flag is set to NOT tweet
+parser = argparse.ArgumentParser()
+parser.add_argument('--debug', action='store_false')
+args = parser.parse_args()
+debug = args.debug
 
 def grabCounts(installation, yesterday, today):
     # City of Calgary's domain id
     domain = '4190'
     countURL = "https://www.eco-visio.net/api/aladdin/1.0.0/pbl/publicwebpageplus/data/" + installation['id'] + "?idOrganisme=" + domain + "&idPdc=" + installation['id'] + "&fin=" + today + "&debut=" + yesterday + "&interval=4&flowIds=" + installation['components']
+    if debug != False:
+        print(countURL)
     amount = 0
     try:
         response = urlopen(countURL)
@@ -283,7 +292,8 @@ for i in sortedPathwayList:
 try:
     count_status=f"{streetTotal} #yycbike trips were counted on street on {fancyDate}\n\nBusiest:\n{top3StreetString}"
     print(count_status)
-    t.statuses.update(status=count_status)
+    if debug != True:
+        t.statuses.update(status=count_status)
 except:
     pass
 
@@ -291,6 +301,7 @@ except:
 try:
     count_status=f"{pathwayTotal} #yycbike trips were counted on MUPs on {fancyDate}\n\nBusiest:\n{top3PathwayString}"
     print(count_status)
-    t.statuses.update(status=count_status)
+    if debug != True:
+        t.statuses.update(status=count_status)
 except:
     pass
