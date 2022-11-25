@@ -58,7 +58,7 @@ def grabCounts(installation, yesterday, today):
 # Long list of counters to pull data from. There are two styles - those that only count bikes and only have an ID
 # And those that count multiple items and as such have a component section needed to grab the correct numbers
 # These IDs can be found in the README or otherwise at the URL:
-# 
+#
 PEACE_BRIDGE = {
     'installation':"Peace Bridge",
     'value': 0,
@@ -73,6 +73,7 @@ SEVENTH = {
     'components': '100017181'
 }
 
+# No longer working as of Sept. 8, 2022
 STEPHEN_AVE = {
     'installation': "Stephen Ave.",
     'value': 0,
@@ -80,6 +81,7 @@ STEPHEN_AVE = {
     'components': '102020207'
 }
 
+# No longer as of Oct. 6, 2022
 FIFTH_5 = {
     'installation': "5th St and 4th Ave",
     'value': 0,
@@ -99,6 +101,7 @@ FIFTH_15 = {
     'components': '100022541'
 }
 
+# No longer working as of Oct. 14, 2022
 TWELFTH_8 = {
     'installation': "12th Ave and 8th St SW",
     'value': 0,
@@ -111,6 +114,7 @@ TWELFTH_2 = {
     'id': '100022580',
     'components': '100022580'
 }
+# No longer working as of June 18, 2022
 TWELFTH_3 = {
     'installation': "12th Ave and 3rd St SE",
     'value': 0,
@@ -124,7 +128,7 @@ NINTH_4 = {
     'id': '100059438',
     'components': '100059438'
 }
-# Removed? But has totem
+# Removed but has sign... Need to find updated installation ID?
 EIGHTH_3 = {
     'installation': "8th Ave at 3rd St SW",
     'value': 0,
@@ -138,6 +142,7 @@ EIGHTH_8 = {
     'components': '100031411'
 }
 
+# Construction in late 2022
 TENTH = {
     'installation': "10th St NW N of 5th Ave NW",
     'value': 0,
@@ -145,6 +150,7 @@ TENTH = {
     'components': '100020661'
 }
 
+# No longer functioning since Oct. 2022
 EDMONTON_TRAIL = {
     'installation': "Edmonton Trail at Memorial Drive",
     'value': 0,
@@ -152,7 +158,7 @@ EDMONTON_TRAIL = {
     'components': '100033550'
 }
 
-# Keeps flooding. Removed?
+# Keeps flooding. Removed
 RIVERWALK = {
     'installation':"Riverwalk",
     'value': 0,
@@ -160,6 +166,7 @@ RIVERWALK = {
     'components': '103138638;104138638'
 }
 
+# No longer working as of Nov. 1, 2022
 NOSE_CREEK = {
     'installation':"Nose Creek",
     'value': 0,
@@ -174,6 +181,7 @@ MEMORIAL_DR = {
     'components': '103128046;104128046'
 }
 
+# No longer working as of Dec. 2021
 MEMORIAL_19 = {
     'installation':"Memorial Drive at 19th St NW",
     'value': 0,
@@ -181,6 +189,7 @@ MEMORIAL_19 = {
     'components': '103128047;104128047'
 }
 
+# No longer working as of June 2021
 LINDSAY = {
     'installation':"Lindsay Park",
     'value': 0,
@@ -188,6 +197,7 @@ LINDSAY = {
     'components': '103128048;104128048'
 }
 
+# No longer working as of Oct. 31, 2022
 SBR_11 = {
     'installation':"South Bow River at 11th St SW",
     'value': 0,
@@ -195,13 +205,15 @@ SBR_11 = {
     'components': '103030402;104030402'
 }
 
+# No longer working as of Aug. 2021
 PARKDALE = {
-    'installation':"South Bow River at 29th St NW",
+    'installation':"North Bow River at 29th St NW",
     'value': 0,
     'id': '100153497',
     'components': '103153497;104153497'
 }
 
+# No longer working as of Jan. 2022
 INGLEWOOD_SANCTUARY = {
     'installation':"Inglewood Bird Sanctuary",
     'value': 0,
@@ -209,6 +221,7 @@ INGLEWOOD_SANCTUARY = {
     'components': '103138344;104138344'
 }
 
+# No longer working as of Sept. 2022
 NORTH_GLENMORE_PARK = {
     'installation':"North Glenmore Park",
     'value': 0,
@@ -223,6 +236,7 @@ GLENMORE_LANDING = {
     'components': '103134304;104134304'
 }
 
+# No longer working as of Nov. 2022
 TWELFTH_ST_ZOO = {
     'installation':"12th St. SE near the Zoo",
     'value': 0,
@@ -238,9 +252,9 @@ yesterday = yesterday.strftime('%d/%m/%Y')
 today = today.strftime('%d/%m/%Y')
 
 # For each installation
-for installation in [ PEACE_BRIDGE, SEVENTH, STEPHEN_AVE, FIFTH_5, FIFTH_10, FIFTH_15, TWELFTH_8, TWELFTH_2, TWELFTH_3,
-   NINTH_4, EIGHTH_8, TENTH, EDMONTON_TRAIL, NOSE_CREEK, MEMORIAL_DR, MEMORIAL_19, LINDSAY,
-   SBR_11, PARKDALE, INGLEWOOD_SANCTUARY, NORTH_GLENMORE_PARK, GLENMORE_LANDING, TWELFTH_ST_ZOO]:
+for installation in [ PEACE_BRIDGE, SEVENTH, FIFTH_10, TWELFTH_3,
+   NINTH_4, EIGHTH_8, NOSE_CREEK, MEMORIAL_DR, LINDSAY,
+   GLENMORE_LANDING, TWELFTH_ST_ZOO]:
     print("Attempting to grab " + installation['installation'])
     try:
         installation['value'] = grabCounts(installation, yesterday, today)
