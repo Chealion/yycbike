@@ -19,7 +19,8 @@ t = Twitter(
 
 # Check if debug flag is set to NOT tweet
 parser = argparse.ArgumentParser()
-parser.add_argument('--debug', action='store_false')
+# If present, store as true
+parser.add_argument('--debug', action='store_true')
 args = parser.parse_args()
 debug = args.debug
 
@@ -27,7 +28,7 @@ def grabCounts(installation, yesterday, today):
     # City of Calgary's domain id
     domain = '4190'
     countURL = "https://www.eco-visio.net/api/aladdin/1.0.0/pbl/publicwebpageplus/data/" + installation['id'] + "?idOrganisme=" + domain + "&idPdc=" + installation['id'] + "&fin=" + today + "&debut=" + yesterday + "&interval=4&flowIds=" + installation['components']
-    if debug != False:
+    if debug == True:
         print(countURL)
     amount = 0
     try:
@@ -306,7 +307,7 @@ for i in sortedPathwayList:
 try:
     count_status=f"{streetTotal} #yycbike trips were counted on street on {fancyDate}\n\nBusiest:\n{top3StreetString}"
     print(count_status)
-    if debug != True:
+    if debug == False:
         t.statuses.update(status=count_status)
 except:
     pass
@@ -315,7 +316,7 @@ except:
 try:
     count_status=f"{pathwayTotal} #yycbike trips were counted on MUPs on {fancyDate}\n\nBusiest:\n{top3PathwayString}"
     print(count_status)
-    if debug != True:
+    if debug == False:
         t.statuses.update(status=count_status)
 except:
     pass
