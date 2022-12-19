@@ -3,8 +3,8 @@ name: yycbike_count_twitter
 on:
     workflow_dispatch:
     
-    schedule:
-      - cron: "13 14 * * *" #runs at 14:13 UTC everyday - 8:13 MDT, 7:13 MST
+      #schedule:
+      #- cron: "13 14 * * *" #runs at 14:13 UTC everyday - 8:13 MDT, 7:13 MST
 
 jobs:
   yycbike:
